@@ -20,8 +20,23 @@ public class Obstacle {
 		this.light = light;
 		this.type = type;
 	}
-	
+
+	public String getOFMAline() {
+		boolean lighted = true;
+		if (light.equals("-"))
+			lighted = false;
+
+		type = type.replaceAll("[,]", "\\\\,");
+		designation = designation.replaceAll("[,]", "\\\\,");
+		designation = designation.replaceAll("\\s/\\s", "/");
+		designation = designation.replaceAll("/\\s", "/");
+
+		return ",," + designation + "," + type + "," + lighted + ",,ft," + height + "," + elevation * 0.3048 + ","
+				+ coordinates.getLat() + "," + coordinates.getLon() + ",false,,,,,";
+	}
+
 	public String toString() {
-		return number + "," + designation + "," + coordinates + "," + height + "," + elevation + "," + light + "," + type;
+		return number + "," + designation + "," + coordinates + "," + height + "," + elevation + "," + light + ","
+				+ type;
 	}
 }

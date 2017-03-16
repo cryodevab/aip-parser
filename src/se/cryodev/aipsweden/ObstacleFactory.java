@@ -79,7 +79,6 @@ public class ObstacleFactory {
 					number = Integer.valueOf(tmp);
 				} else
 					fail();
-				System.out.println("Parsing obstacle #" + number + "...");
 
 				// Pop the designation from the line
 				Matcher designationMatcher = designationPattern.matcher(line);
@@ -175,7 +174,6 @@ public class ObstacleFactory {
 				obstacles.add(new Obstacle(number, designation, coordinates, height, elev, light, type));
 			}
 		}
-		System.out.println("All done! =)");
 	}
 
 	private void fail() throws ParseException {
