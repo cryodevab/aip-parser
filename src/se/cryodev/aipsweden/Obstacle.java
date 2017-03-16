@@ -23,7 +23,7 @@ public class Obstacle {
 
 	public String getOFMAline() {
 		boolean lighted = true;
-		if (light.equals("-"))
+		if (light.trim().equals("-"))
 			lighted = false;
 
 		type = type.replaceAll("[,]", "\\\\,");
