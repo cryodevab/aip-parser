@@ -3,18 +3,25 @@ package se.cryodev.aipsweden;
 public class Obstacle {
 
 	private int number;
-	private String name;
+	private String designation;
 	private WGS84Coordinates coordinates;
-	private int feetHeight;
-	private int feetElevation;
-	private LightCharacter light;
-	private Obstacle.Type type;
+	private int height;
+	private int elevation;
+	private String light;
+	private String type;
 
-	public Obstacle(String text) {
-		// Get the text and parse it to create the object
+	public Obstacle(int number, String designation, WGS84Coordinates coordinates, int height, int elevation,
+			String light, String type) {
+		this.number = number;
+		this.designation = designation;
+		this.coordinates = coordinates;
+		this.height = height;
+		this.elevation = elevation;
+		this.light = light;
+		this.type = type;
 	}
 	
-	public enum Type {
-		WINDTURB, CHIMNEY, BRGPYLON, MAST, BUILDING, PYLON, TOWER, POWERPYLON
+	public String toString() {
+		return number + "," + designation + "," + coordinates + "," + height + "," + elevation + "," + light + "," + type;
 	}
 }
