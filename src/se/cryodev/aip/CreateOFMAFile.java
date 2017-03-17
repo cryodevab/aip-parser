@@ -22,7 +22,7 @@ import se.cryodev.aip.parsers.ESObstacleParser;
 public class CreateOFMAFile {
 
 	public static void main(String[] args) throws InvalidPasswordException, ParseException, IOException {
-		String country = "ES";
+		String country = "LG";
 
 		ObstacleParser parser;
 		switch (country) {

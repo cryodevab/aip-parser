@@ -1,36 +1,13 @@
 package se.cryodev.aip.parsers;
 
-import java.io.*;
-import java.util.*;
-import java.util.regex.*;
-
-import org.apache.pdfbox.pdmodel.*;
-import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
-import org.apache.pdfbox.text.*;
-
-import se.cryodev.aip.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import se.cryodev.aip.model.Obstacle;
 import se.cryodev.aip.model.ObstacleParser;
 import se.cryodev.aip.model.ParseException;
 import se.cryodev.aip.model.WGS84Coordinates;
 
-public class ESObstacleParser implements ObstacleParser {
-	private String fileName;
-	private String textAIP;
-	private ArrayList<Obstacle> obstacles;
-
-	public ESObstacleParser() {
-		this.obstacles = new ArrayList<Obstacle>();
-	}
-
-	public void loadFile(String fileName) throws InvalidPasswordException, IOException {
-		// Load the PDF file into text
-		this.fileName = fileName;
-		System.out.println("Openning " + fileName + " for Sweden...");
-		PDDocument pdf = PDDocument.load(new File(fileName));
-		textAIP = new PDFTextStripper().getText(pdf);
-		pdf.close();
-	}
+public class ESObstacleParser extends ObstacleParser {
 
 	public void parse() throws ParseException {
 		// Parse the text of the PDF file using regular expressions
@@ -178,11 +155,4 @@ public class ESObstacleParser implements ObstacleParser {
 		}
 	}
 
-	public ArrayList<Obstacle> getObstacles() {
-		return this.obstacles;
-	}
-
-	private void fail() throws ParseException {
-		throw new ParseException(fileName);
-	}
 }
