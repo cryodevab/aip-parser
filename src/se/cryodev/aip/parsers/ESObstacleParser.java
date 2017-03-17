@@ -1,4 +1,4 @@
-package se.cryodev.aip;
+package se.cryodev.aip.parsers;
 
 import java.io.*;
 import java.util.*;
@@ -9,13 +9,17 @@ import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
 import org.apache.pdfbox.text.*;
 
 import se.cryodev.aip.*;
+import se.cryodev.aip.model.Obstacle;
+import se.cryodev.aip.model.ObstacleParser;
+import se.cryodev.aip.model.ParseException;
+import se.cryodev.aip.model.WGS84Coordinates;
 
-public class SwedenObstacleParser implements ObstacleParser {
+public class ESObstacleParser implements ObstacleParser {
 	private String fileName;
 	private String textAIP;
 	private ArrayList<Obstacle> obstacles;
 
-	public SwedenObstacleParser() {
+	public ESObstacleParser() {
 		this.obstacles = new ArrayList<Obstacle>();
 	}
 

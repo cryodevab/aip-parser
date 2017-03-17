@@ -1,4 +1,4 @@
-package se.cryodev.aip;
+package se.cryodev.aip.model;
 
 import java.io.IOException;
 
