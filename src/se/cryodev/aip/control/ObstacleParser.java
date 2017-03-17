@@ -1,4 +1,4 @@
-package se.cryodev.aip.model;
+package se.cryodev.aip.control;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
 import org.apache.pdfbox.text.PDFTextStripper;
+
+import se.cryodev.aip.model.Obstacle;
 
 public abstract class ObstacleParser {
 	private String fileName;

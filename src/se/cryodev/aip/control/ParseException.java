@@ -1,4 +1,4 @@
-package se.cryodev.aip.model;
+package se.cryodev.aip.control;
 
 public class ParseException extends Exception {
 

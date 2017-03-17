@@ -2,9 +2,10 @@ package se.cryodev.aip.parsers;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import se.cryodev.aip.control.ObstacleParser;
+import se.cryodev.aip.control.ParseException;
 import se.cryodev.aip.model.Obstacle;
-import se.cryodev.aip.model.ObstacleParser;
-import se.cryodev.aip.model.ParseException;
 import se.cryodev.aip.model.WGS84Coordinates;
 
 public class ESObstacleParser extends ObstacleParser {

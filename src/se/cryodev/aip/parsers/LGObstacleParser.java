@@ -1,7 +1,7 @@
 package se.cryodev.aip.parsers;
 
-import se.cryodev.aip.model.ObstacleParser;
-import se.cryodev.aip.model.ParseException;
+import se.cryodev.aip.control.ObstacleParser;
+import se.cryodev.aip.control.ParseException;
 
 public class LGObstacleParser extends ObstacleParser {
 

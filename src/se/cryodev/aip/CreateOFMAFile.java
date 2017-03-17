@@ -8,9 +8,9 @@ import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
 
 import se.cryodev.aip.parsers.LGObstacleParser;
 import se.cryodev.aip.parsers.LOObstacleParser;
+import se.cryodev.aip.control.ObstacleParser;
+import se.cryodev.aip.control.ParseException;
 import se.cryodev.aip.model.Obstacle;
-import se.cryodev.aip.model.ObstacleParser;
-import se.cryodev.aip.model.ParseException;
 import se.cryodev.aip.parsers.ESObstacleParser;
 
 /**
