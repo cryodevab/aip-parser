@@ -48,15 +48,14 @@ public class CreateOFMAFile {
 		ArrayList<Obstacle> obstacles = parser.getObstacles();
 
 		System.out.println("Creating OFMA obstacle file...");
-		PrintWriter writer = new PrintWriter(country + "_obstacles.csv", "UTF-8");
+		PrintWriter writer = new PrintWriter("ofma-files/" + country + "_obstacles.csv", "UTF-8");
 		writer.println(
 				"codeGroup,groupInternalId,name,type,lighted,markingDescription,heightUnit,heightValue,elevationValue,latutide,longitude,defaultHeightFlag,verticalPrecision,lateralPrecision,obstacleRadius,linkedToGroupInternalId,linkType");
 		for (Obstacle obstacle : obstacles) {
 			writer.println(obstacle.getOFMAline());
 		}
 		writer.close();
-
-		System.out.println("All done! =)");
+		System.out.println("Saved OFMA obstacle file to: ofma-files/" + country + "_obstacles.csv");
 
 	}
 }
