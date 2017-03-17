@@ -1,4 +1,4 @@
-package se.cryodev.aipsweden;
+package se.cryodev.aip;
 
 public class WGS84Coordinates {
 	/**

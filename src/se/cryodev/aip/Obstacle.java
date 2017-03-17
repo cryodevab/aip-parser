@@ -1,4 +1,4 @@
-package se.cryodev.aipsweden;
+package se.cryodev.aip;
 
 public class Obstacle {
 
@@ -36,7 +36,7 @@ public class Obstacle {
 	}
 
 	public String toString() {
-		return number + "," + designation + "," + coordinates + "," + height + "," + elevation + "," + light + ","
+		return number + ";" + designation + ";" + coordinates + ";" + height + ";" + elevation + ";" + light + ";"
 				+ type;
 	}
 }

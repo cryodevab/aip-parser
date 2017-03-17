@@ -1,4 +1,4 @@
-package se.cryodev.aipsweden;
+package se.cryodev.aip;
 
 import java.io.*;
 import java.util.*;
@@ -8,29 +8,29 @@ import org.apache.pdfbox.pdmodel.*;
 import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
 import org.apache.pdfbox.text.*;
 
-public class ObstacleFactory {
+import se.cryodev.aip.*;
+
+public class SwedenObstacleParser implements ObstacleParser {
 	private String fileName;
+	private String textAIP;
 	private ArrayList<Obstacle> obstacles;
 
-	public ObstacleFactory(String fileName) throws ParseException, InvalidPasswordException, IOException {
-		this.fileName = fileName;
+	public SwedenObstacleParser() {
 		this.obstacles = new ArrayList<Obstacle>();
-		this.parsePDF();
 	}
 
-	public ArrayList<Obstacle> getObstacles() {
-		return this.obstacles;
-	}
-
-	private void parsePDF() throws ParseException, InvalidPasswordException, IOException {
+	public void loadFile(String fileName) throws InvalidPasswordException, IOException {
 		// Load the PDF file into text
-		System.out.println("Openning " + fileName + "...");
+		this.fileName = fileName;
+		System.out.println("Openning " + fileName + " for Sweden...");
 		PDDocument pdf = PDDocument.load(new File(fileName));
-		String text = new PDFTextStripper().getText(pdf);
+		textAIP = new PDFTextStripper().getText(pdf);
 		pdf.close();
+	}
 
-		// Filter out relevant lines
-		String[] lines = text.split(System.lineSeparator());
+	public void parse() throws ParseException {
+		// Parse the text of the PDF file using regular expressions
+		String[] lines = textAIP.split(System.lineSeparator());
 		Pattern areaPattern = Pattern.compile("\\d{2}[NS]\\s\\d{2,3}[EW]");
 		Pattern nrPattern = Pattern.compile("\\d{1,5}");
 		Pattern designationPattern = Pattern.compile(".*\\d{6}\\.?\\d?[NS]");
@@ -99,42 +99,40 @@ public class ObstacleFactory {
 					String tmp = line.substring(coordinatesMatcher.start(), coordinatesMatcher.end());
 					line = line.substring(tmp.length() + 1);
 
-					float latDeg = 0, latMin = 0, latSec = 0,
-							lonDeg = 0, lonMin = 0, lonSec = 0,
-							lat = 0, lon = 0;
+					float latDeg = 0, latMin = 0, latSec = 0, lonDeg = 0, lonMin = 0, lonSec = 0, lat = 0, lon = 0;
 					if (tmp.length() == 16) {
 						// 551212N 0131212E
 						latDeg = Float.valueOf(tmp.substring(0, 2));
 						latMin = Float.valueOf(tmp.substring(2, 4));
 						latSec = Float.valueOf(tmp.substring(4, 6));
-						
+
 						lonDeg = Float.valueOf(tmp.substring(8, 11));
 						lonMin = Float.valueOf(tmp.substring(11, 13));
 						lonSec = Float.valueOf(tmp.substring(13, 15));
-						
-						lat = latDeg + latMin/60 + latSec/3600;
-						lon = lonDeg + lonMin/60 + lonSec/3600;
-						
-						if (tmp.substring(6,7).equals("S"))
+
+						lat = latDeg + latMin / 60 + latSec / 3600;
+						lon = lonDeg + lonMin / 60 + lonSec / 3600;
+
+						if (tmp.substring(6, 7).equals("S"))
 							lat = -lat;
-						if (tmp.substring(15,16).equals("W"))
+						if (tmp.substring(15, 16).equals("W"))
 							lon = -lon;
 					} else {
 						// 551212.0N 0131212.0E
 						latDeg = Float.valueOf(tmp.substring(0, 2));
 						latMin = Float.valueOf(tmp.substring(2, 4));
 						latSec = Float.valueOf(tmp.substring(4, 8));
-						
+
 						lonDeg = Float.valueOf(tmp.substring(10, 13));
 						lonMin = Float.valueOf(tmp.substring(13, 15));
 						lonSec = Float.valueOf(tmp.substring(15, 19));
-						
-						lat = latDeg + latMin/60 + latSec/3600;
-						lon = lonDeg + lonMin/60 + lonSec/3600;
-						
-						if (tmp.substring(8,9).equals("S"))
+
+						lat = latDeg + latMin / 60 + latSec / 3600;
+						lon = lonDeg + lonMin / 60 + lonSec / 3600;
+
+						if (tmp.substring(8, 9).equals("S"))
 							lat = -lat;
-						if (tmp.substring(19,20).equals("W"))
+						if (tmp.substring(19, 20).equals("W"))
 							lon = -lon;
 					}
 
@@ -176,19 +174,11 @@ public class ObstacleFactory {
 		}
 	}
 
-	private void fail() throws ParseException {
-		throw new ParseException(
-				"Failed miserably while parsing " + fileName + ". Please contact my master and let him fix me!");
+	public ArrayList<Obstacle> getObstacles() {
+		return this.obstacles;
 	}
 
-	public static void main(String[] args) throws InvalidPasswordException, ParseException, IOException {
-
-		ObstacleFactory obs = new ObstacleFactory("ES_ENR_5_4_en.pdf");
-		ArrayList<Obstacle> obst = obs.getObstacles();
-		
-		for (Obstacle obstacle : obst) {
-			System.out.println(obstacle);
-		}
-		
+	private void fail() throws ParseException {
+		throw new ParseException(fileName);
 	}
 }
