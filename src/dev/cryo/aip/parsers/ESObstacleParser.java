@@ -26,9 +26,7 @@ public class ESObstacleParser extends ObstacleParser {
 				if (wef.isEmpty() && line.contains("WEF:")) {
 					String[] wefArr = line.split(":");
 					
-					if (wefArr.length != 2) {
-						throw new ParseException(file.getName());
-					}
+					if (wefArr.length != 2) fail();
 					
 					wef = wefArr[1].trim();
 				}
@@ -47,15 +45,11 @@ public class ESObstacleParser extends ObstacleParser {
 				}
 				
 				// By the time we get here we must have WEF
-				if (wef.isEmpty()) {
-					throw new ParseException(file.getName());
-				}
+				if (wef.isEmpty()) fail();
 				
 				// Check if the line has the right amount of elements
 				String[] lineData = line.split(";");
-				if (lineData.length != 9) {
-					throw new ParseException(file.getName());
-				}
+				if (lineData.length != 9) fail();
 				
 				obstacles.add(new Obstacle(
 						lineData[0],
@@ -72,11 +66,11 @@ public class ESObstacleParser extends ObstacleParser {
 				
 			}
 		} catch (NumberFormatException e) {
-			throw new ParseException(file.getName());
+			fail();
 		}
 		
 		if (!titleFound) {
-			throw new ParseException(file.getName());
+			fail();
 		}
 	}
 

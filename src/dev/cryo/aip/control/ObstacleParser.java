@@ -33,7 +33,7 @@ public abstract class ObstacleParser {
 		// If the file is a PDF the do the PDF stuff
 		String[] filenameParts = file.getName().split(".");
 		String extension = filenameParts[filenameParts.length - 1];
-		if (extension.toLowerCase().contentEquals("pdf")) {
+		if (extension.equalsIgnoreCase("pdf")) {
 			PDDocument pdf = PDDocument.load(file);
 			textFromPDF = new PDFTextStripper().getText(pdf);
 			pdf.close();			

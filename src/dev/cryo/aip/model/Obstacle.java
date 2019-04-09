@@ -138,7 +138,6 @@ public class Obstacle {
 	}
 
 	public String toString() {
-		return codeId + ";" + txtName + ";" + coordinates + ";" + valHgt + ";" + valElev + ";" + codeLgt + ";"
-				+ codeType;
+		return getOFMAline().replaceAll("[,]", " - ");
 	}
 }
