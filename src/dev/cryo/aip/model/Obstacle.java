@@ -18,7 +18,7 @@ public class Obstacle {
 	private int valElev;
 	private int valElevAccuracy;
 	private int valHgt;
-	private boolean codeHgtAccuracy;
+	private String codeHgtAccuracy;
 	private String uomDistVer;
 	private int valRadius;
 	private String uomRadius;
@@ -46,7 +46,7 @@ public class Obstacle {
 		
 		this.codeId = Integer.valueOf(no);
 		this.txtName = name_of_obstacle.trim().toUpperCase();
-		this.codeLgt = light_character.trim().isEmpty() ? "NO" : "YES";
+		this.codeLgt = light_character.trim().isEmpty() ? "N" : "Y";
 		this.codeMarking = "";
 		this.txtDescrLgt = light_character.trim();
 		this.txtDescrMarking = "";
@@ -56,7 +56,7 @@ public class Obstacle {
 		this.valElev = Integer.valueOf(elevation_ft);
 		this.valElevAccuracy = 0;
 		this.valHgt = Integer.valueOf(height_ft);
-		this.codeHgtAccuracy = quality_not_certified.trim().isEmpty();
+		this.codeHgtAccuracy = quality_not_certified.trim().isEmpty() ? "Y" : "N";
 		this.uomDistVer = "FT";
 		this.valRadius = type_of_obstacle.toLowerCase().contains("radius") ? Integer.valueOf(type_of_obstacle.replaceAll("[\\D.]", "")) : 0;
 		this.uomRadius = "M";
@@ -65,14 +65,21 @@ public class Obstacle {
 		this.codeLinkedToId = "";
 		this.codeLinkType = "";
 		this.txtRmk = type_of_obstacle;
-		this.source = "Swedish Aeronautical Information Service";
 		
-		// Convert time
-		wef = wef.toLowerCase();
-		LocalDate fromDate = LocalDate.parse(wef, DateTimeFormatter.ofPattern("dd MMM yyyy"));
+		// Convert time (horrible APIs require horrible solutions)
+		String[] months = {"JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"};
+		for (int i = 0; i <= 11; i++) {
+			if (wef.contains(months[i])) {
+				wef = wef.replaceFirst(months[i], i + 1 + "");
+				break;
+			}
+		}
+		LocalDate fromDate = LocalDate.parse(wef, DateTimeFormatter.ofPattern("d M yyyy"));
 		LocalDate toDate = fromDate.plusYears(2);
 		this.datetimeValidWef = fromDate.toString() + "T00:00:00Z";
 		this.datetimeValidTil = toDate.toString() + "T23:59:59Z";
+		
+		this.source = "ES|ENR|5.4|" + fromDate.toString() + "|CSV";
 		
 		// Search for the type of obstacle
 		type_of_obstacle = type_of_obstacle.trim().toLowerCase();
@@ -101,43 +108,51 @@ public class Obstacle {
 	}
 
 	public String getOFMAline() {
+		
+		// Some cleanup to keep to comply with: https://github.com/openflightmaps/ofmx/wiki/OFMX-CSV
+		this.txtName = this.txtName.replaceAll("\"", "\"\""); // Replace all <"> with <"">
+		this.txtName = this.txtName.replaceAll(" +", " "); // Replace all multiple spaces with single spaces
+		this.txtName = this.txtName.replaceAll("\\s/\\s", "/"); // Replace < / > with </>
+		this.txtName = this.txtName.replaceAll("\\s/", "/"); // Replace < /> with </>
+		this.txtName = this.txtName.replaceAll("/\\s", "/"); // Replace </ > with </>
 
-		this.txtRmk = this.txtRmk.replaceAll("[,]", " ").replaceAll(" +", " ");
-		this.txtName = this.txtName.replaceAll("[,]", " ").replaceAll(" +", " ");
-		this.txtName = this.txtName.replaceAll("\\s/\\s", "/");
-		this.txtName = this.txtName.replaceAll("\\s/", "/");
-		this.txtName = this.txtName.replaceAll("/\\s", "/");
-
+		this.txtDescrLgt = this.txtDescrLgt.replaceAll("\"", "\"\""); // Replace all <"> with <"">
+		this.txtDescrLgt = this.txtDescrLgt.replaceAll(" +", " "); // Replace all multiple spaces with single spaces
+		
+		this.txtRmk = this.txtRmk.replaceAll("\"", "\"\""); // Replace all <"> with <"">
+		this.txtRmk = this.txtRmk.replaceAll(" +", " "); // Replace all multiple spaces with single spaces
+		
 		return 
-				this.codeId + "," + 
-				this.codeType + "," + 
-				this.txtName + "," + 
-				this.codeLgt + "," + 
-				this.codeMarking + "," + 
-				this.txtDescrLgt +  "," +
-				this.txtDescrMarking + "," + 
-				this.coordinates.getLat() + "," + 
-				this.coordinates.getLon() + "," + 
-				this.valGeoAccuracy + "," + 
-				this.uomGeoAccuracy + "," + 
-				this.valElev + "," + 
-				this.valElevAccuracy + "," + 
-				this.valHgt + "," + 
-				(this.codeHgtAccuracy ? "YES" : "NO") + "," + 
-				this.uomDistVer + "," + 
-				this.valRadius + "," + 
-				this.uomRadius + "," + 
-				this.codeGroupId + "," + 
-				this.txtGroupName + "," + 
-				this.codeLinkedToId + "," + 
-				this.codeLinkType + "," + 
-				this.datetimeValidWef + "," + 
-				this.datetimeValidTil + "," + 
-				this.txtRmk + "," + 
-				this.source;
+				"\"" +
+				this.codeId + "\",\"" + 
+				this.codeType + "\",\"" + 
+				this.txtName + "\",\"" + 
+				this.codeLgt + "\",\"" + 
+				this.codeMarking + "\",\"" + 
+				this.txtDescrLgt +  "\",\"" +
+				this.txtDescrMarking + "\",\"" + 
+				this.coordinates.getLat() + "\",\"" + 
+				this.coordinates.getLon() + "\",\"" + 
+				this.valGeoAccuracy + "\",\"" + 
+				this.uomGeoAccuracy + "\",\"" + 
+				this.valElev + "\",\"" + 
+				this.valElevAccuracy + "\",\"" + 
+				this.valHgt + "\",\"" + 
+				this.codeHgtAccuracy + "\",\"" + 
+				this.uomDistVer + "\",\"" + 
+				this.valRadius + "\",\"" + 
+				this.uomRadius + "\",\"" + 
+				this.codeGroupId + "\",\"" + 
+				this.txtGroupName + "\",\"" + 
+				this.codeLinkedToId + "\",\"" + 
+				this.codeLinkType + "\",\"" + 
+				this.datetimeValidWef + "\",\"" + 
+				this.datetimeValidTil + "\",\"" + 
+				this.txtRmk + "\",\"" + 
+				this.source + "\"";
 	}
 
 	public String toString() {
-		return getOFMAline().replaceAll("[,]", " - ");
+		return getOFMAline();
 	}
 }

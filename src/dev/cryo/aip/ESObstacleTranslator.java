@@ -55,10 +55,10 @@ public class ESObstacleTranslator {
 		PrintWriter writer;
 		try {
 			writer = new PrintWriter(args[1], "UTF-8");
-			writer.println("codeId,codeType,txtName,codeLgt,codeMarking,txtDescrLgt,txtDescrMarking,geoLat,geoLong,valGeoAccuracy,uomGeoAccuracy,valElev,valElevAccuracy,valHgt,codeHgtAccuracy,uomDistVer,valRadius,uomRadius,codeGroupId,txtGroupName,codeLinkedToId,codeLinkType,datetimeValidWef,datetimeValidTil,txtRmk,source");
+			writer.print("codeId,codeType,txtName,codeLgt,codeMarking,txtDescrLgt,txtDescrMarking,geoLat,geoLong,valGeoAccuracy,uomGeoAccuracy,valElev,valElevAccuracy,valHgt,codeHgtAccuracy,uomDistVer,valRadius,uomRadius,codeGroupId,txtGroupName,codeLinkedToId,codeLinkType,datetimeValidWef,datetimeValidTil,txtRmk,source\r\n");
 			
 			for (Obstacle obstacle : obstacles) {
-				writer.println(obstacle.getOFMAline());
+				writer.print(obstacle.getOFMAline() + "\r\n");
 			}
 			writer.close();
 			
