@@ -107,7 +107,7 @@ public class Obstacle {
 		
 	}
 
-	public String getOFMAline() {
+	public String getOFMline() {
 		
 		// Some cleanup to keep to comply with: https://github.com/openflightmaps/ofmx/wiki/OFMX-CSV
 		this.txtName = this.txtName.replaceAll("\"", "\"\""); // Replace all <"> with <"">
@@ -153,6 +153,6 @@ public class Obstacle {
 	}
 
 	public String toString() {
-		return getOFMAline();
+		return getOFMline();
 	}
 }

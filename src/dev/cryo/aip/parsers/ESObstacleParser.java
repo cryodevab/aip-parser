@@ -17,8 +17,6 @@ public class ESObstacleParser extends ObstacleParser {
 		boolean titleFound = false;
 		String wef = "";
 
-		System.out.println("Parsing obstacles...");
-		
 		List<String> lines = Files.readAllLines(file.toPath(), Charset.forName("ISO8859_1"));
 		try {
 			for (String line : lines) {

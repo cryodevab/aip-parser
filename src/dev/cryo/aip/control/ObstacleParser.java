@@ -23,7 +23,6 @@ public abstract class ObstacleParser {
 	public void loadTextFile(File file) {
 		// Load the PDF file into text
 		this.file = file;
-		System.out.println("Loading " + file.getName() + "...");
 	}
 	
 	public void loadPDFFile(File file) throws InvalidPasswordException, IOException {

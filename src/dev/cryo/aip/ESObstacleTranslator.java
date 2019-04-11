@@ -24,14 +24,14 @@ public class ESObstacleTranslator {
 		
 		// Exit if no filename has been provided
 		if (args.length != 2) {
-			System.err.println("Usage: java -jar es_translator.jar <input_filename> <output_filename>");
+			System.out.println("ERR: Usage: java -jar es_translator.jar <input_filename> <output_filename>");
 			System.exit(1);
 		}
 		
 		// Check if file exists
 		File file = new File(args[0]);
 		if (!file.exists()) {
-			System.err.println("File " + file.getName() + " does not exist!");
+			System.out.println("ERR: File " + file.getName() + " does not exist!");
 			System.exit(1);
 		}
 		
@@ -39,11 +39,16 @@ public class ESObstacleTranslator {
 		ObstacleParser parser = new ESObstacleParser();
 
 		// Try to parse the file
+		System.out.println("MSG: Loading " + file.getName() + "...");
 		parser.loadTextFile(file);
 		try {
+			System.out.println("MSG: Parsing obstacles...");
 			parser.parse();
-		} catch (ParseException | IOException e) {
-			System.err.println("Could not parse " + file.getName() + ": " + e.getLocalizedMessage());
+		} catch (ParseException e) {
+			System.out.println("ERR: " + e.getLocalizedMessage());
+			System.exit(1);
+		} catch (IOException e) {
+			System.out.println("ERR: Could not parse " + file.getName() + ": " + e.getLocalizedMessage());
 			System.exit(1);
 		}
 		
@@ -51,26 +56,26 @@ public class ESObstacleTranslator {
 		ArrayList<Obstacle> obstacles = parser.getObstacles();
 
 		// Create the output .csv file
-		System.out.println("Creating OFMA obstacle file...");
+		System.out.println("MSG: Creating OFM obstacle file...");
 		PrintWriter writer;
 		try {
 			writer = new PrintWriter(args[1], "UTF-8");
 			writer.print("codeId,codeType,txtName,codeLgt,codeMarking,txtDescrLgt,txtDescrMarking,geoLat,geoLong,valGeoAccuracy,uomGeoAccuracy,valElev,valElevAccuracy,valHgt,codeHgtAccuracy,uomDistVer,valRadius,uomRadius,codeGroupId,txtGroupName,codeLinkedToId,codeLinkType,datetimeValidWef,datetimeValidTil,txtRmk,source\r\n");
 			
 			for (Obstacle obstacle : obstacles) {
-				writer.print(obstacle.getOFMAline() + "\r\n");
+				writer.print(obstacle.getOFMline() + "\r\n");
 			}
 			writer.close();
 			
 		} catch (FileNotFoundException e) {
-			System.err.println("File could not be written: " + e.getLocalizedMessage());
+			System.out.println("ERR: File could not be written: " + e.getLocalizedMessage());
 			System.exit(1);
 		} catch (UnsupportedEncodingException e) {
-			System.err.println("Unsupported encoding: " + e.getLocalizedMessage());
+			System.out.println("ERR: Unsupported encoding: " + e.getLocalizedMessage());
 			System.exit(1);
 		}
 		
-		System.out.println("Saved OFMA obstacle file to: " + args[1]);
+		System.out.println("MSG: Saved OFM obstacle file to: " + args[1]);
 	}
 
 }
