@@ -1,0 +1,573 @@
+obs_id;aip_id;obs_txt_name;obs_txt_name_cz;obs_txt_descr_type;obs_txt_descr_type_cz;obs_val_elev;obs_val_hgt;obs_uom_dist_ver;obs_txt_ver_datum;obs_geo_lat;obs_geo_long;obs_code_datum;obs_txt_descr_marking;obs_txt_descr_marking_cz;obs_txt_descr_lgt;obs_txt_descr_lgt_cz;obs_code_lgt;obs_txt_rmk;obs_txt_rmk_cz
+99958;430;ANDELKA;ANDĚLKA;wind power plant;větrná elektrárna;516;146;M;BpV;505919.23N;0145851.06E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99957;429;ANDELKA;ANDĚLKA;wind power plant;větrná elektrárna;524;146;M;BpV;505926.97N;0145840.34E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99959;431;ANDELKA;ANDĚLKA;wind power plant;větrná elektrárna;494;123;M;BpV;505934.18N;0145857.98E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99961;433;ANDELKA;ANDĚLKA;wind power plant;větrná elektrárna;510;146;M;BpV;505927.15N;0145907.48E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99960;432;ANDELKA;ANDĚLKA;wind power plant;větrná elektrárna;489;146;M;BpV;505910.82N;0145901.07E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99963;435;ANDELKA;ANDĚLKA;wind power plant;větrná elektrárna;490;146;M;BpV;505931.34N;0145934.15E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99962;434;ANDELKA;ANDĚLKA;wind power plant;větrná elektrárna;490;146;M;BpV;505919.42N;0145915.12E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83880;260;ANENSKA STUDANKA;ANENSKÁ STUDÁNKA;wind power plant;větrná elektrárna;675;100;M;BpV;495028.15N;0163250.87E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83877;261;ANENSKA STUDANKA;ANENSKÁ STUDÁNKA;wind power plant;větrná elektrárna;683;100;M;BpV;495012.52N;0163253.18E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83879;262;ANENSKA STUDANKA;ANENSKÁ STUDÁNKA;wind power plant;větrná elektrárna;686;100;M;BpV;495018.41N;0163254.77E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83878;263;ANENSKA STUDANKA;ANENSKÁ STUDÁNKA;wind power plant;větrná elektrárna;693;100;M;BpV;495019.74N;0163304.47E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83536;5;AS;AŠ;chimney;komín;730;102;M;BpV;501336.02N;0121123.05E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83829;240;BANTICE;BANTICE;wind power plant;větrná elektrárna;404;150;M;BpV;485205.12N;0160954.24E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83730;173;BENESOV;BENEŠOV;chimney;komín;469;110;M;BpV;494612.74N;0144131.37E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+99867;396c;BEROUN;BEROUN;pole;sloup;363;20;M;BpV;495828.61N;0140359.00E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:396c (Part of line obstacle: 396);NR:396c (Součást liniové překážky: 396)
+99866;396b;BEROUN;BEROUN;transmission line;el. vedení;361;112;M;BpV;495822.91N;0140348.61E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:396b (Part of line obstacle: 396);NR:396b (Součást liniové překážky: 396)
+99865;396a;BEROUN;BEROUN;pole;sloup;359;22;M;BpV;495817.65N;0140339.38E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:396a (Part of line obstacle: 396);NR:396a (Součást liniové překážky: 396)
+99881;401c;BOHOSTICE;BOHOSTICE;pole;sloup;492;31;M;BpV;493644.86N;0141004.98E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:401c (Part of line obstacle: 401);NR:401c (Součást liniové překážky: 401)
+99880;401b;BOHOSTICE;BOHOSTICE;transmission line;el. vedení;497;154;M;BpV;493646.27N;0140950.50E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:401b (Part of line obstacle: 401);NR:401b (Součást liniové překážky: 401)
+99879;401a;BOHOSTICE;BOHOSTICE;pole;sloup;502;41;M;BpV;493647.99N;0140929.19E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:401a (Part of line obstacle: 401);NR:401a (Součást liniové překážky: 401)
+83733;345;BOHUMIN;BOHUMÍN;chimney;komín;330;122;M;BpV;495333.47N;0182109.82E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99905;411a;BOJANOVICE;BOJANOVICE;pole;sloup;407;44;M;BpV;495102.88N;0142122.96E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:411a (Part of line obstacle: 411);NR:411a (Součást liniové překážky: 411)
+99907;411c;BOJANOVICE;BOJANOVICE;pole;sloup;423;65;M;BpV;495114.51N;0142148.29E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:411c (Part of line obstacle: 411);NR:411c (Součást liniové překážky: 411)
+99906;411b;BOJANOVICE;BOJANOVICE;transmission line;el. vedení;419;118;M;BpV;495111.49N;0142141.82E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:411b (Part of line obstacle: 411);NR:411b (Součást liniové překážky: 411)
+83718;279;BRECLAV;BŘECLAV;chimney;komín;275;117;M;BpV;484511.06N;0165343.63E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83772;254;BREZANY;BŘEŽANY;wind power plant;větrná elektrárna;332;100;M;BpV;485318.26N;0162224.05E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83771;253;BREZANY;BŘEŽANY;wind power plant;větrná elektrárna;331;100;M;BpV;485310.25N;0162218.57E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83768;248;BREZANY;BŘEŽANY;wind power plant;větrná elektrárna;327;100;M;BpV;485246.38N;0162202.16E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83770;251;BREZANY;BŘEŽANY;wind power plant;větrná elektrárna;331;100;M;BpV;485302.29N;0162213.10E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83769;249;BREZANY;BŘEŽANY;wind power plant;větrná elektrárna;330;100;M;BpV;485254.29N;0162207.68E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99922;416c;BREZOVA-OLESKO;BŘEZOVÁ-OLEŠKO;pole;sloup;409;52;M;BpV;495428.14N;0142408.23E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:416c (Part of line obstacle: 416);NR:416c (Součást liniové překážky: 416)
+99869;397b;BRNA NAD LABEM;BRNÁ NAD LABEM;transmission line;el. vedení;305;164;M;BpV;503657.94N;0140436.05E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:397b (Part of line obstacle: 397);NR:397b (Součást liniové překážky: 397)
+99868;397a;BRNA NAD LABEM;BRNÁ NAD LABEM;pole;sloup;323;28;M;BpV;503658.90N;0140409.86E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:397a (Part of line obstacle: 397);NR:397a (Součást liniové překážky: 397)
+99870;397c;BRNA NAD LABEM;BRNÁ NAD LABEM;pole;sloup;280;32;M;BpV;503657.78N;0140459.70E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:397c (Part of line obstacle: 397);NR:397c (Součást liniové překážky: 397)
+83588;259;BRNENEC;BRNĚNEC;chimney;komín;487;114;M;BpV;493743.44N;0163122.60E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99996;450;BRNO;BRNO;building;budova;316;116;M;BpV;491033.54N;0163620.79E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83610;270;BRNO;BRNO;chimney;komín;377;118;M;BpV;491133.34N;0164008.61E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83609;269;BRNO;BRNO;chimney;komín;374;126;M;BpV;491122.03N;0164000.13E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83616;266;BRNO;BRNO;chimney;komín;303;100;M;BpV;491147.21N;0163721.48E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83615;267;BRNO;BRNO;chimney;komín;300;100;M;BpV;491143.78N;0163721.86E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83599;268;BRNO;BRNO;chimney;komín;432;218;M;BpV;491323.13N;0163848.34E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83596;264;BRNO;BRNO;chimney;komín;349;112;M;BpV;491458.41N;0163534.17E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83639;120;BUKOVA HORA;BUKOVÁ HORA;TV transmitter;TV vysílač;887;225;M;BpV;504018.45N;0141344.47E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99863;395b;CASTONICE;ČASTONICE;transmission line;el. vedení;337;106;M;BpV;500132.81N;0135334.79E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:395b (Part of line obstacle: 395);NR:395b (Součást liniové překážky: 395)
+99862;395a;CASTONICE;ČASTONICE;pole;sloup;333;20;M;BpV;500131.15N;0135322.79E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:395a (Part of line obstacle: 395);NR:395a (Součást liniové překážky: 395)
+99864;395c;CASTONICE;ČASTONICE;pole;sloup;343;20;M;BpV;500135.13N;0135350.29E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:395c (Part of line obstacle: 395);NR:395c (Součást liniové překážky: 395)
+99901;409c;CERIN;ČEŘÍN;pole;sloup;606;39;M;BpV;484231.48N;0142051.10E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:409c (Part of line obstacle: 409);NR:409c (Součást liniové překážky: 409)
+99900;409b;CERIN;ČEŘÍN;transmission line;el. vedení;610;104;M;BpV;484230.32N;0142034.67E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:409b (Part of line obstacle: 409);NR:409b (Součást liniové překážky: 409)
+99899;409a;CERIN;ČEŘÍN;pole;sloup;612;39;M;BpV;484229.42N;0142025.68E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:409a (Part of line obstacle: 409);NR:409a (Součást liniové překážky: 409)
+83680;219;CERNOZICE;ČERNOŽICE;chimney;komín;356;110;M;BpV;501838.68N;0155211.87E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83857;169;CESKA LIPA;ČESKÁ LÍPA;chimney;komín;382;113;M;BpV;504106.97N;0143329.83E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83580;161;CESKE BUDEJOVICE;ČESKÉ BUDĚJOVICE;radio transmitter;rozhlasový vysílač;511;111;M;BpV;485919.58N;0142937.07E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83582;162;CESKE BUDEJOVICE;ČESKÉ BUDĚJOVICE;chimney;komín;566;162;M;BpV;485910.79N;0143009.77E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83579;160;CESKE BUDEJOVICE;ČESKÉ BUDĚJOVICE;chimney;komín;513;125;M;BpV;485802.35N;0142907.77E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83642;111;CIZKOVICE;ČÍŽKOVICE;chimney;komín;293;126;M;BpV;502921.62N;0140246.28E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83643;110;CIZKOVICE;ČÍŽKOVICE;tower;věž;269;102;M;BpV;502922.71N;0140241.95E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83725;354;DARKOV;DARKOV;winding tower;těžní věž;339;106;M;BpV;494948.78N;0183127.78E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83856;121;DECIN;DĚČÍN;chimney;komín;313;169;M;BpV;504623.39N;0141400.07E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83665;190;DESNA;DESNÁ;chimney;komín;636;121;M;BpV;504544.66N;0151859.46E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83706;347;DETMAROVICE;DĚTMAROVICE;cooling tower;chladící věž;310;100;M;BpV;495406.79N;0182804.75E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83705;349;DETMAROVICE;DĚTMAROVICE;cooling tower;chladící věž;309;100;M;BpV;495404.29N;0182808.80E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83707;348;DETMAROVICE;DĚTMAROVICE;chimney;komín;477;273;M;BpV;495420.82N;0182805.07E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83712;350;DETMAROVICE;DĚTMAROVICE;chimney;komín;475;274;M;BpV;495418.78N;0182809.64E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83709;346;DETMAROVICE;DĚTMAROVICE;cooling tower;chladící věž;310;100;M;BpV;495408.93N;0182801.03E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83708;351;DETMAROVICE;DĚTMAROVICE;cooling tower;chladící věž;309;100;M;BpV;495402.35N;0182812.40E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+99964;436;DETRICHOV;DĚTŘICHOV;wind power plant;větrná elektrárna;633;150;M;BpV;505215.47N;0150142.73E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99888;404a;DOBKOVICE;DOBKOVICE;pole;sloup;298;32;M;BpV;504248.66N;0141056.89E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:404a (Part of line obstacle: 404);NR:404a (Součást liniové překážky: 404)
+99890;404c;DOBKOVICE;DOBKOVICE;pole;sloup;274;31;M;BpV;504231.09N;0141106.98E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:404c (Part of line obstacle: 404);NR:404c (Součást liniové překážky: 404)
+99889;404b;DOBKOVICE;DOBKOVICE;transmission line;el. vedení;282;120;M;BpV;504237.18N;0141103.51E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:404b (Part of line obstacle: 404);NR:404b (Součást liniové překážky: 404)
+83612;281;DOBROCHOV;DOBROCHOV;radio transmitter;rozhlasový vysílač;458;152;M;BpV;492304.37N;0170724.40E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83703;239;DOBRUSKA;DOBRUŠKA;chimney;komín;394;102;M;BpV;501712.63N;0160931.35E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99992;448c;DOLNI LHOTA;DOLNÍ LHOTA;pole;sloup;556;34;M;BpV;493615.97N;0162546.13E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:448c (Part of line obstacle: 448);NR:448c (Součást liniové překážky: 448)
+99991;448b;DOLNI LHOTA;DOLNÍ LHOTA;transmission line;el. vedení;536;106;M;BpV;493615.43N;0162527.38E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:448b (Part of line obstacle: 448);NR:448b (Součást liniové překážky: 448)
+99990;448a;DOLNI LHOTA;DOLNÍ LHOTA;pole;sloup;514;40;M;BpV;493615.55N;0162520.55E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:448a (Part of line obstacle: 448);NR:448a (Součást liniové překážky: 448)
+83739;209;DOMAMIL;DOMAMIL;mast;stožár;651;109;M;BpV;490426.82N;0154232.78E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83777;280;DRAHANY;DRAHANY;wind power plant;větrná elektrárna;798;150;M;BpV;492629.79N;0165414.10E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83885;234;DUKOVANY;DUKOVANY;chimney;komín;500;116;M;BpV;490459.13N;0160904.11E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83884;232;DUKOVANY;DUKOVANY;chimney;komín;515;120;M;BpV;490509.16N;0160845.83E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83883;233;DUKOVANY;DUKOVANY;chimney;komín;514;120;M;BpV;490505.28N;0160900.43E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83608;237;DUKOVANY;DUKOVANY;cooling tower;chladící věž;511;126;M;BpV;490503.33N;0160926.22E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83607;238;DUKOVANY;DUKOVANY;cooling tower;chladící věž;510;126;M;BpV;490507.88N;0160928.99E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83604;231;DUKOVANY;DUKOVANY;cooling tower;chladící věž;510;127;M;BpV;490514.79N;0160822.79E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83603;230;DUKOVANY;DUKOVANY;cooling tower;chladící věž;509;127;M;BpV;490510.14N;0160819.87E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83606;235;DUKOVANY;DUKOVANY;cooling tower;chladící věž;510;126;M;BpV;490505.26N;0160919.11E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83605;236;DUKOVANY;DUKOVANY;cooling tower;chladící věž;510;126;M;BpV;490509.77N;0160922.23E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83602;229;DUKOVANY;DUKOVANY;cooling tower;chladící věž;510;127;M;BpV;490516.56N;0160815.72E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83601;227;DUKOVANY;DUKOVANY;cooling tower;chladící věž;509;127;M;BpV;490512.03N;0160812.96E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83600;226;DUKOVANY;DUKOVANY;mast;stožár;537;139;M;BpV;490542.97N;0160805.68E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83691;352;DUL BARBORA;DŮL BARBORA;chimney;komín;380;121;M;BpV;494923.25N;0182841.74E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83855;217;DVUR KRALOVE;DVŮR KRÁLOVÉ;chimney;komín;385;101;M;BpV;502524.59N;0154848.50E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83849;340;FRYDEK-MISTEK;FRÝDEK-MÍSTEK;chimney;komín;383;111;M;BpV;494153.38N;0181928.38E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83808;303;GUNTRAMOVICE;GUNTRAMOVICE;wind power plant;větrná elektrárna;836;156;M;BpV;494717.55N;0173106.47E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99860;393;HABARTICE;HABARTICE;wind power plant;větrná elektrárna;871;126;M;BpV;504309.88N;0135151.14E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99861;394;HABARTICE;HABARTICE;wind power plant;větrná elektrárna;874;126;M;BpV;504254.28N;0135153.50E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+100019;465;HAT;HAŤ;wind power plant;větrná elektrárna;412;150;M;BpV;495736.90N;0181442.07E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99891;405;HLASNA TREBAN;HLÁSNÁ TŘEBÁŇ;transmission line;el. vedení;314;108;M;BpV;495516.72N;0141259.97E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+99848;385a;HLINCE;HLINCE;pole;sloup;397;34;M;BpV;495555.47N;0133742.11E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:385a (Part of line obstacle: 385);NR:385a (Součást liniové překážky: 385)
+99850;385c;HLINCE;HLINCE;pole;sloup;330;31;M;BpV;495613.92N;0133759.75E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:385c (Part of line obstacle: 385);NR:385c (Součást liniové překážky: 385)
+99849;385b;HLINCE;HLINCE;transmission line;el. vedení;378;118;M;BpV;495600.99N;0133747.27E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:385b (Part of line obstacle: 385);NR:385b (Součást liniové překážky: 385)
+83736;221;HLINSKO;HLINSKO;chimney;komín;695;113;M;BpV;494555.19N;0155523.98E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83759;21;HOLYSOV;HOLÝŠOV;chimney;komín;461;108;M;BpV;493553.75N;0130546.83E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83811;46;HORA SV. SEBESTIANA;HORA SV. ŠEBESTIÁNA;wind power plant;větrná elektrárna;940;100;M;BpV;503004.90N;0131442.97E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83810;47;HORA SV. SEBESTIANA;HORA SV. ŠEBESTIÁNA;wind power plant;větrná elektrárna;938;100;M;BpV;503014.31N;0131447.04E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83816;48;HORA SV. SEBESTIANA;HORA SV. ŠEBESTIÁNA;wind power plant;větrná elektrárna;926;100;M;BpV;503014.58N;0131502.67E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99822;371;HORNI CASTKOV;HORNÍ ČÁSTKOV;wind power plant;větrná elektrárna;749;150;M;BpV;501112.10N;0123118.21E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99821;370;HORNI CASTKOV;HORNÍ ČÁSTKOV;wind power plant;větrná elektrárna;735;150;M;BpV;501107.30N;0123054.96E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83864;7;HORNI CASTKOV;HORNÍ ČÁSTKOV;wind power plant;větrná elektrárna;735;150;M;BpV;501111.15N;0123017.84E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83863;6;HORNI CASTKOV;HORNÍ ČÁSTKOV;wind power plant;větrná elektrárna;749;150;M;BpV;501056.63N;0122956.26E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83826;289;HORNI LODENICE;HORNÍ LODĚNICE;wind power plant;větrná elektrárna;760;150;M;BpV;494512.32N;0172122.15E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83825;291;HORNI LODENICE;HORNÍ LODĚNICE;wind power plant;větrná elektrárna;728;150;M;BpV;494546.75N;0172205.73E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83828;295;HORNI LODENICE;HORNÍ LODĚNICE;wind power plant;větrná elektrárna;737;150;M;BpV;494528.63N;0172233.79E;WGE;without marking;bez značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83827;294;HORNI LODENICE;HORNÍ LODĚNICE;wind power plant;větrná elektrárna;740;150;M;BpV;494515.02N;0172221.13E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83822;287;HORNI LODENICE;HORNÍ LODĚNICE;wind power plant;větrná elektrárna;769;150;M;BpV;494505.33N;0172036.74E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83821;288;HORNI LODENICE;HORNÍ LODĚNICE;wind power plant;větrná elektrárna;754;150;M;BpV;494520.27N;0172050.40E;WGE;without marking;bez značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83824;292;HORNI LODENICE;HORNÍ LODĚNICE;wind power plant;větrná elektrárna;750;150;M;BpV;494532.59N;0172208.08E;WGE;without marking;bez značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83823;290;HORNI LODENICE;HORNÍ LODĚNICE;wind power plant;větrná elektrárna;757;150;M;BpV;494520.76N;0172152.11E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83820;286;HORNI LODENICE;HORNÍ LODĚNICE;wind power plant;větrná elektrárna;748;150;M;BpV;494521.85N;0172026.74E;WGE;without marking;bez značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99820;369;HORNI PASEKY;HORNÍ PASEKY;wind power plant;větrná elektrárna;859;150;M;BpV;501341.94N;0121630.82E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99819;368;HORNI PASEKY;HORNÍ PASEKY;wind power plant;větrná elektrárna;852;150;M;BpV;501339.88N;0121610.29E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99816;365;HORNI PASEKY;HORNÍ PASEKY;wind power plant;větrná elektrárna;833;150;M;BpV;501341.67N;0121531.56E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99818;367;HORNI PASEKY;HORNÍ PASEKY;wind power plant;větrná elektrárna;839;150;M;BpV;501327.60N;0121556.20E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99817;366;HORNI PASEKY;HORNÍ PASEKY;wind power plant;větrná elektrárna;837;150;M;BpV;501345.31N;0121552.00E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99972;440;HORNI RASNICE;HORNÍ ŘASNICE;wind power plant;větrná elektrárna;572;150;M;BpV;505740.05N;0151245.48E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99829;376c;HORNI SLAVKOV;HORNÍ SLAVKOV;pole;sloup;631;40;M;BpV;500859.59N;0124741.60E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:376c (Part of line obstacle: 376);NR:376c (Součást liniové překážky: 376)
+99828;376b;HORNI SLAVKOV;HORNÍ SLAVKOV;transmission line;el. vedení;632;119;M;BpV;500859.29N;0124733.30E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:376b (Part of line obstacle: 376);NR:376b (Součást liniové překážky: 376)
+99831;377b;HORNI SLAVKOV;HORNÍ SLAVKOV;transmission line;el. vedení;664;102;M;BpV;500821.32N;0124954.31E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:377b (Part of line obstacle: 377);NR:377b (Součást liniové překážky: 377)
+99830;377a;HORNI SLAVKOV;HORNÍ SLAVKOV;pole;sloup;658;43;M;BpV;500826.85N;0124941.92E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:377a (Part of line obstacle: 377);NR:377a (Součást liniové překážky: 377)
+99827;376a;HORNI SLAVKOV;HORNÍ SLAVKOV;pole;sloup;633;40;M;BpV;500859.02N;0124720.62E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:376a (Part of line obstacle: 376);NR:376a (Součást liniové překážky: 376)
+99832;377c;HORNI SLAVKOV;HORNÍ SLAVKOV;pole;sloup;669;40;M;BpV;500816.21N;0125003.97E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:377c (Part of line obstacle: 377);NR:377c (Součást liniové překážky: 377)
+83853;311;HRANICE;HRANICE;silo;silo;417;111;M;BpV;493331.05N;0174600.29E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83854;312;HRANICE;HRANICE;chimney;komín;452;150;M;BpV;493333.16N;0174604.89E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99814;363;HRANICE;HRANICE;wind power plant;větrná elektrárna;781;150;M;BpV;501859.20N;0120944.82E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99815;364;HRANICE;HRANICE;wind power plant;větrná elektrárna;781;150;M;BpV;501902.41N;0121015.72E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99950;426c;HRDLOREZY;HRDLOŘEZY;pole;sloup;320;48;M;BpV;502709.92N;0145209.61E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:426c (Part of line obstacle: 426);NR:426c (Součást liniové překážky: 426)
+99949;426b;HRDLOREZY;HRDLOŘEZY;transmission line;el. vedení;327;110;M;BpV;502702.63N;0145205.27E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:426b (Part of line obstacle: 426);NR:426b (Součást liniové překážky: 426)
+99948;426a;HRDLOREZY;HRDLOŘEZY;pole;sloup;332;48;M;BpV;502657.68N;0145202.35E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:426a (Part of line obstacle: 426);NR:426a (Součást liniové překážky: 426)
+83844;258;HRUSOVANY;HRUŠOVANY;chimney;komín;305;110;M;BpV;484840.69N;0162415.96E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99902;410a;HUSINEC;HUSINEC;pole;sloup;288;30;M;BpV;501015.41N;0142054.41E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:410a (Part of line obstacle: 410);NR:410a (Součást liniové překážky: 410)
+99904;410c;HUSINEC;HUSINEC;pole;sloup;341;30;M;BpV;501001.49N;0142102.46E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:410c (Part of line obstacle: 410);NR:410c (Součást liniové překážky: 410)
+99903;410b;HUSINEC;HUSINEC;transmission line;el. vedení;305;119;M;BpV;501010.81N;0142057.24E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:410b (Part of line obstacle: 410);NR:410b (Součást liniové překážky: 410)
+99892;406;HVEZDNA;HVĚZDNÁ;wind power plant;větrná elektrárna;1167;120;M;BpV;483452.91N;0141400.11E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83652;167;CHLOUMEK;CHLOUMEK;radio transmitter;rozhlasový vysílač;403;150;M;BpV;502213.74N;0143129.16E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83571;58;CHOMUTOV;CHOMUTOV;chimney;komín;502;181;M;BpV;502705.38N;0132516.38E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83570;59;CHOMUTOV;CHOMUTOV;chimney;komín;422;102;M;BpV;502706.93N;0132518.51E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83614;293;CHROPYNE;CHROPYNĚ;chimney;komín;317;120;M;BpV;492131.02N;0172213.57E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83676;196;CHVALETICE;CHVALETICE;cooling tower;chladící věž;316;105;M;BpV;500134.61N;0152706.66E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83675;195;CHVALETICE;CHVALETICE;cooling tower;chladící věž;316;105;M;BpV;500134.76N;0152701.78E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83677;194;CHVALETICE;CHVALETICE;cooling tower;chladící věž;316;105;M;BpV;500134.94N;0152656.86E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83674;193;CHVALETICE;CHVALETICE;cooling tower;chladící věž;316;105;M;BpV;500135.09N;0152651.94E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83673;197;CHVALETICE;CHVALETICE;chimney;komín;512;300;M;BpV;500138.90N;0152711.97E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83661;185;JABLONEC NAD NISOU;JABLONEC NAD NISOU;chimney;komín;616;161;M;BpV;504334.39N;0150852.68E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83663;184;JABLONEC NAD NISOU;JABLONEC NAD NISOU;chimney;komín;610;111;M;BpV;504420.44N;0150852.62E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83662;186;JABLONEC NAD NISOU;JABLONEC NAD NISOU;chimney;komín;647;104;M;BpV;504351.80N;0151124.94E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83818;252;JANOV;JANOV;wind power plant;větrná elektrárna;564;120;M;BpV;495004.72N;0162218.38E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83819;250;JANOV;JANOV;wind power plant;větrná elektrárna;558;120;M;BpV;494956.59N;0162208.69E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83751;192;JAVORICE;JAVOŘICE;TV transmitter;TV vysílač;1002;167;M;BpV;491316.32N;0152021.77E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83737;201;JIHLAVA;JIHLAVA;chimney;komín;580;100;M;BpV;492446.39N;0153322.35E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83753;130;JILOVISTE;JÍLOVIŠTĚ;mast;stožár;595;196;M;BpV;495611.54N;0142121.25E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99825;374;JINDRICHOVICE;JINDŘICHOVICE;wind power plant;větrná elektrárna;866;150;M;BpV;501530.18N;0123728.31E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99824;373;JINDRICHOVICE;JINDŘICHOVICE;wind power plant;větrná elektrárna;869;150;M;BpV;501542.06N;0123727.21E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99826;375;JINDRICHOVICE;JINDŘICHOVICE;wind power plant;větrná elektrárna;853;150;M;BpV;501539.62N;0123741.83E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99823;372;JINDRICHOVICE;JINDŘICHOVICE;wind power plant;větrná elektrárna;868;150;M;BpV;501535.82N;0123711.61E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83752;179;JINDRICHUV HRADEC;JINDŘICHŮV HRADEC;chimney;komín;588;103;M;BpV;490839.46N;0150204.44E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+99844;383c;KADAN;KADAŇ;pole;sloup;371;43;M;BpV;502201.37N;0131803.43E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:383c (Part of line obstacle: 383);NR:383c (Součást liniové překážky: 383)
+99843;383b;KADAN;KADAŇ;transmission line;el. vedení;372;102;M;BpV;502212.77N;0131752.82E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:383b (Part of line obstacle: 383);NR:383b (Součást liniové překážky: 383)
+99842;383a;KADAN;KADAŇ;pole;sloup;373;54;M;BpV;502218.68N;0131746.70E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:383a (Part of line obstacle: 383);NR:383a (Součást liniové překážky: 383)
+83817;198;KAMEN;KÁMEN;wind power plant;větrná elektrárna;701;150;M;BpV;494334.99N;0153024.90E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83528;16;KARLOVY VARY;KARLOVY VARY;radio transmitter;rozhlasový vysílač;542;107;M;BpV;501418.99N;0124923.21E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83529;17;KARLOVY VARY;KARLOVY VARY;chimney;komín;518;113;M;BpV;501435.40N;0125304.04E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83850;355;KARVINA;KARVINÁ;chimney;komín;340;103;M;BpV;495145.93N;0183252.27E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83847;353;KARVINA;KARVINÁ;chimney;komín;355;121;M;BpV;495038.13N;0182947.65E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83624;19;KDYNE;KDYNĚ;chimney;komín;556;111;M;BpV;492311.90N;0130222.13E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83867;109;KLADNO;KLADNO;chimney;komín;513;103;M;BpV;500950.57N;0140142.04E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+101489;468;KLADNO;KLADNO;chimney;komín;481;145;M;BpV;500914.16N;0140738.91E;WGE;Day marking;Denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83629;117;KLADNO;KLADNO;chimney;komín;481;149;M;BpV;500911.42N;0140744.45E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83578;115;KLADNO;KLADNO;chimney;komín;455;119;M;BpV;500931.77N;0140659.04E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83581;123;KLET;KLEŤ;TV translator;TV převaděč;1237;176;M;BpV;485202.24N;0141652.52E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83803;67;KLINY;KLÍNY;wind power plant;větrná elektrárna;949;120;M;BpV;503817.90N;0133235.60E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83802;68;KLINY;KLÍNY;wind power plant;větrná elektrárna;958;120;M;BpV;503759.98N;0133248.98E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99985;445;KOCLEROV;KOCLÉŘOV;wind power plant;větrná elektrárna;723;175;M;BpV;503009.24N;0154756.12E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83589;275;KOJAL;KOJÁL;radio transmitter;rozhlasový vysílač;940;340;M;BpV;492212.39N;0164857.92E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99938;422c;KOKORIN;KOKOŘÍN;pole;sloup;343;23;M;BpV;502530.73N;0143445.71E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:422c (Part of line obstacle: 422);NR:422c (Součást liniové překážky: 422)
+99937;422b;KOKORIN;KOKOŘÍN;transmission line;el. vedení;337;108;M;BpV;502531.40N;0143436.96E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:422b (Part of line obstacle: 422);NR:422b (Součást liniové překážky: 422)
+99940;423b;KOKORIN;KOKOŘÍN;transmission line;el. vedení;343;102;M;BpV;502540.27N;0143514.37E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:423b (Part of line obstacle: 423);NR:423b (Součást liniové překážky: 423)
+99939;423a;KOKORIN;KOKOŘÍN;pole;sloup;337;16;M;BpV;502545.71N;0143511.98E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:423a (Part of line obstacle: 423);NR:423a (Součást liniové překážky: 423)
+99936;422a;KOKORIN;KOKOŘÍN;pole;sloup;327;23;M;BpV;502533.35N;0143423.28E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:422a (Part of line obstacle: 422);NR:422a (Součást liniové překážky: 422)
+99941;423c;KOKORIN;KOKOŘÍN;pole;sloup;354;19;M;BpV;502530.09N;0143519.83E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:423c (Part of line obstacle: 423);NR:423c (Součást liniové překážky: 423)
+83669;187;KOLIN;KOLÍN;chimney;komín;302;105;M;BpV;500238.57N;0151232.92E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83668;188;KOLIN;KOLÍN;chimney;komín;317;119;M;BpV;500148.08N;0151235.57E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83573;69;KOMORANY;KOMOŘANY;chimney;komín;415;180;M;BpV;503120.47N;0133419.67E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83672;189;KOPIDLNO;KOPIDLNO;chimney;komín;331;116;M;BpV;501952.69N;0151518.83E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+100008;456;KOPRIVNA;KOPŘIVNÁ;wind power plant;větrná elektrárna;839;148;M;BpV;500248.31N;0165758.20E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+100007;455;KOPRIVNA;KOPŘIVNÁ;wind power plant;větrná elektrárna;819;148;M;BpV;500257.58N;0165744.91E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83758;323;KOPRIVNICE;KOPŘIVNICE;chimney;komín;487;162;M;BpV;493609.64N;0180903.53E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83723;324;KOPRIVNICE;KOPŘIVNICE;chimney;komín;419;100;M;BpV;493610.83N;0180905.16E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+99971;439;KOSETICE;KOŠETICE;mast;stožár;790;254;M;BpV;493420.88N;0150448.15E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99887;403c;KOSTELEC NAD VLTAVOU;KOSTELEC NAD VLTAVOU;pole;sloup;477;66;M;BpV;493010.60N;0141119.74E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:403c (Part of line obstacle: 403);NR:403c (Součást liniové překážky: 403)
+83627;128;KRALUPY NAD VLTAVOU;KRALUPY NAD VLTAVOU;chimney;komín;298;121;M;BpV;501515.39N;0141952.70E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83626;126;KRALUPY NAD VLTAVOU;KRALUPY NAD VLTAVOU;chimney;komín;337;162;M;BpV;501533.77N;0141939.97E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83628;125;KRALUPY NAD VLTAVOU;KRALUPY NAD VLTAVOU;chimney;komín;296;122;M;BpV;501522.60N;0141933.23E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83687;127;KRALUPY NAD VLTAVOU;KRALUPY NAD VLTAVOU;chimney;komín;337;160;M;BpV;501517.95N;0141952.12E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83859;1;KRASNA U ASE;KRÁSNÁ U AŠE;wind power plant;větrná elektrárna;773;150;M;BpV;501530.68N;0120648.85E;WGE;day marking;"denní značení ";night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83861;3;KRASNA U ASE;KRÁSNÁ U AŠE;wind power plant;větrná elektrárna;800;150;M;BpV;501515.50N;0120719.62E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83860;2;KRASNA U ASE;KRÁSNÁ U AŠE;wind power plant;větrná elektrárna;792;150;M;BpV;501525.87N;0120707.67E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83862;4;KRASNA U ASE;KRÁSNÁ U AŠE;wind power plant;větrná elektrárna;843;150;M;BpV;501431.23N;0120803.99E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99813;362;KRASNA U ASE;KRÁSNÁ U AŠE;wind power plant;větrná elektrárna;796;174;M;BpV;501515.99N;0120627.31E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83835;212;KRASNE;KRÁSNÉ;mast;stožár;796;182;M;BpV;494920.93N;0154415.22E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83623;20;KRASOV;KRAŠOV;radio transmitter;rozhlasový vysílač;1056;340;M;BpV;495944.00N;0130445.74E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83636;146;KRIVENICE;KŘIVENICE;chimney;komín;301;141;M;BpV;502452.05N;0142447.76E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83635;151;KRIVENICE;KŘIVENICE;chimney;komín;431;271;M;BpV;502442.99N;0142507.62E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83637;152;KRIVENICE;KŘIVENICE;building;budova;302;142;M;BpV;502445.72N;0142510.02E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83632;147;KRIVENICE;KŘIVENICE;chimney;komín;281;121;M;BpV;502453.41N;0142448.25E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83631;148;KRIVENICE;KŘIVENICE;chimney;komín;282;122;M;BpV;502451.63N;0142451.81E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83634;149;KRIVENICE;KŘIVENICE;chimney;komín;311;151;M;BpV;502444.77N;0142500.21E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83633;153;KRIVENICE;KŘIVENICE;cooling tower;chladící věž;278;118;M;BpV;502446.53N;0142523.38E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83716;309;KRNOV;KRNOV;chimney;komín;444;125;M;BpV;500515.49N;0174128.01E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99916;414c;KROCLOV;KROCLOV;pole;sloup;505;23;M;BpV;485358.74N;0142250.08E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:414c (Part of line obstacle: 414);NR:414c (Součást liniové překážky: 414)
+99915;414b;KROCLOV;KROCLOV;transmission line;el. vedení;516;100;M;BpV;485349.28N;0142249.26E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:414b (Part of line obstacle: 414);NR:414b (Součást liniové překážky: 414)
+99914;414a;KROCLOV;KROCLOV;pole;sloup;523;24;M;BpV;485342.74N;0142248.65E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:414a (Part of line obstacle: 414);NR:414a (Součást liniové překážky: 414)
+83591;296;KROMERIZ;KROMĚŘÍŽ;chimney;komín;293;103;M;BpV;491828.52N;0172348.23E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83786;25;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;953;120;M;BpV;502630.88N;0130705.84E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83785;26;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;957;120;M;BpV;502622.54N;0130707.54E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83788;29;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;925;120;M;BpV;502648.58N;0130712.90E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83787;27;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;946;120;M;BpV;502639.66N;0130708.84E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83782;24;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;960;120;M;BpV;502603.60N;0130703.93E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83781;22;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;965;120;M;BpV;502606.31N;0130651.05E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83784;28;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;958;120;M;BpV;502611.47N;0130709.45E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83783;23;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;974;120;M;BpV;502613.89N;0130655.97E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83789;30;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;958;120;M;BpV;502649.68N;0130835.36E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83795;41;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;963;120;M;BpV;502643.74N;0131030.09E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83794;39;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;959;120;M;BpV;502640.96N;0131018.74E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83797;44;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;970;120;M;BpV;502657.34N;0131043.21E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83796;42;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;974;120;M;BpV;502650.88N;0131034.18E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83791;33;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;972;120;M;BpV;502634.76N;0130849.43E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83790;32;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;971;120;M;BpV;502641.67N;0130840.75E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83793;37;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;974;120;M;BpV;502644.59N;0131007.64E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83792;31;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;959;120;M;BpV;502632.96N;0130836.32E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83798;45;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;971;120;M;BpV;502703.78N;0131050.16E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83800;40;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;969;120;M;BpV;502655.00N;0131023.36E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83799;43;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;969;120;M;BpV;502703.68N;0131037.49E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83801;38;KRYSTOFOVY HAMRY;KRYŠTOFOVY HAMRY;wind power plant;větrná elektrárna;972;120;M;BpV;502650.62N;0131011.82E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99858;391;LEDVICE;LEDVICE;cooling tower;chladící věž;344;145;M;BpV;503437.42N;0134642.59E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+99859;392;LEDVICE;LEDVICE;building;budova;344;145;M;BpV;503440.95N;0134651.60E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83548;96;LEDVICE;LEDVICE;chimney;komín;320;121;M;BpV;503430.77N;0134646.47E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83547;95;LEDVICE;LEDVICE;chimney;komín;406;206;M;BpV;503435.77N;0134645.78E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83532;8;LIBAVSKE UDOLI;LIBAVSKÉ ÚDOLÍ;chimney;komín;549;121;M;BpV;500742.89N;0123320.96E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83866;131;LIBCICE NAD VLTAVOU;LIBČICE NAD VLTAVOU;chimney;komín;277;102;M;BpV;501159.87N;0142155.18E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+99910;412c;LIBCICE NAD VLTAVOU;LIBČICE NAD VLTAVOU;pole;sloup;280;16;M;BpV;501058.00N;0142225.55E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:412c (Part of line obstacle: 412);NR:412c (Součást liniové překážky: 412)
+99909;412b;LIBCICE NAD VLTAVOU;LIBČICE NAD VLTAVOU;transmission line;el. vedení;278;109;M;BpV;501100.50N;0142211.75E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:412b (Part of line obstacle: 412);NR:412b (Součást liniové překážky: 412)
+99908;412a;LIBCICE NAD VLTAVOU;LIBČICE NAD VLTAVOU;pole;sloup;272;22;M;BpV;501103.99N;0142151.13E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:412a (Part of line obstacle: 412);NR:412a (Součást liniové překážky: 412)
+83664;181;LIBEREC;LIBEREC;chimney;komín;489;133;M;BpV;504528.46N;0150327.70E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83658;177;LIBLICE;LIBLICE;mast;stožár;611;355;M;BpV;500347.01N;0145312.97E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83657;176;LIBLICE;LIBLICE;mast;stožár;611;355;M;BpV;500343.28N;0145311.47E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83809;310;LIPNA;LIPNÁ;wind power plant;větrná elektrárna;729;150;M;BpV;494003.79N;0174211.79E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83587;246;LITOMYSL;LITOMYŠL;chimney;komín;422;101;M;BpV;495242.97N;0161720.00E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83552;73;LITVINOV;LITVÍNOV;chimney;komín;378;131;M;BpV;503358.48N;0133559.38E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83551;81;LITVINOV;LITVÍNOV;cooling tower;chladící věž;343;102;M;BpV;503330.39N;0133654.22E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83553;70;LITVINOV;LITVÍNOV;chimney;komín;355;100;M;BpV;503430.37N;0133536.10E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83558;80;LITVINOV;LITVÍNOV;cooling tower;chladící věž;343;102;M;BpV;503333.27N;0133654.18E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83561;83;LITVINOV;LITVÍNOV;chimney;komín;394;151;M;BpV;503356.48N;0133719.27E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83560;79;LITVINOV;LITVÍNOV;chimney;komín;352;110;M;BpV;503346.17N;0133652.99E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83555;71;LITVINOV;LITVÍNOV;cooling tower;chladící věž;348;101;M;BpV;503355.00N;0133554.85E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83554;72;LITVINOV;LITVÍNOV;tower;věž;352;105;M;BpV;503401.00N;0133558.74E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83557;82;LITVINOV;LITVÍNOV;cooling tower;chladící věž;343;101;M;BpV;503327.55N;0133654.25E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83556;74;LITVINOV;LITVÍNOV;cooling tower;chladící věž;348;101;M;BpV;503356.26N;0133605.29E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83544;75;LITVINOV;LITVÍNOV;cooling tower;chladící věž;342;102;M;BpV;503327.46N;0133612.64E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83586;122;LOUCOVICE;LOUČOVICE;chimney;komín;783;111;M;BpV;483707.42N;0141508.32E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83640;113;LOVOSICE;LOVOSICE;chimney;komín;248;101;M;BpV;503048.27N;0140455.43E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83805;274;MALETIN;MALETÍN;wind power plant;větrná elektrárna;708;135;M;BpV;494826.23N;0164717.32E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99920;416a;MECHENICE;MĚCHENICE;pole;sloup;322;57;M;BpV;495411.13N;0142341.28E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:416a (Part of line obstacle: 416);NR:416a (Součást liniové překážky: 416)
+99921;416b;MECHENICE;MĚCHENICE;transmission line;el. vedení;369;169;M;BpV;495417.80N;0142351.72E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:416b (Part of line obstacle: 416);NR:416b (Součást liniové překážky: 416)
+99928;418c;MECHENICE;MĚCHENICE;pole;sloup;372;25;M;BpV;495419.37N;0142413.00E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:418c (Part of line obstacle: 418);NR:418c (Součást liniové překážky: 418)
+99927;418b;MECHENICE;MĚCHENICE;transmission line;el. vedení;337;134;M;BpV;495413.85N;0142353.97E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:418b (Part of line obstacle: 418);NR:418b (Součást liniové překážky: 418)
+99926;418a;MECHENICE;MĚCHENICE;pole;sloup;291;30;M;BpV;495410.83N;0142343.73E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:418a (Part of line obstacle: 418);NR:418a (Součást liniové překážky: 418)
+99943;424b;MEZIHORI;MEZIHOŘÍ;transmission line;el. vedení;501;102;M;BpV;495006.71N;0144427.60E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:424b (Part of line obstacle: 424);NR:424b (Součást liniové překážky: 424)
+99942;424a;MEZIHORI;MEZIHOŘÍ;pole;sloup;507;45;M;BpV;495015.13N;0144424.81E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:424a (Part of line obstacle: 424);NR:424a (Součást liniové překážky: 424)
+99944;424c;MEZIHORI;MEZIHOŘÍ;pole;sloup;494;36;M;BpV;494957.52N;0144430.66E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:424c (Part of line obstacle: 424);NR:424c (Součást liniové překážky: 424)
+99894;407b;MEZNA;MEZNÁ;transmission line;el. vedení;299;136;M;BpV;505149.69N;0141840.98E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:407b (Part of line obstacle: 407);NR:407b (Součást liniové překážky: 407)
+99893;407a;MEZNA;MEZNÁ;pole;sloup;306;26;M;BpV;505157.41N;0141838.06E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:407a (Part of line obstacle: 407);NR:407a (Součást liniové překážky: 407)
+99895;407c;MEZNA;MEZNÁ;pole;sloup;294;34;M;BpV;505143.76N;0141843.22E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:407c (Part of line obstacle: 407);NR:407c (Součást liniové překážky: 407)
+83731;144;MILEVSKO;MILEVSKO;chimney;komín;565;128;M;BpV;492627.45N;0142300.29E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83875;178;MLADA BOLESLAV;MLADÁ BOLESLAV;chimney;komín;412;201;M;BpV;502502.34N;0145559.06E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83873;66;MNISEK;MNÍŠEK;wind power plant;větrná elektrárna;902;120;M;BpV;503720.69N;0133042.50E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99956;428c;MOHELNICE;MOHELNICE;pole;sloup;327;44;M;BpV;503359.69N;0145819.15E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:428c (Part of line obstacle: 428);NR:428c (Součást liniové překážky: 428)
+99955;428b;MOHELNICE;MOHELNICE;transmission line;el. vedení;338;109;M;BpV;503356.39N;0145813.38E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:428b (Part of line obstacle: 428);NR:428b (Součást liniové překážky: 428)
+99954;428a;MOHELNICE;MOHELNICE;pole;sloup;347;44;M;BpV;503343.83N;0145801.57E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:428a (Part of line obstacle: 428);NR:428a (Součást liniové překážky: 428)
+83773;273;MOKRA;MOKRÁ;silo;silo;408;100;M;BpV;491300.89N;0164628.10E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83574;84;MOST;MOST;building;budova;364;100;M;BpV;503022.18N;0133834.53E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83699;241;NACHOD;NÁCHOD;chimney;komín;447;103;M;BpV;502509.71N;0161007.21E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83598;247;NEDVEDICE;NEDVĚDICE;chimney;komín;430;110;M;BpV;492728.27N;0162015.36E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99872;398b;NEMCI;NĚMČÍ;transmission line;el. vedení;653;228;M;BpV;503707.77N;0140609.83E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:398b (Part of line obstacle: 398);NR:398b (Součást liniové překážky: 398)
+99871;398a;NEMCI;NĚMČÍ;pole;sloup;620;26;M;BpV;503700.01N;0140552.17E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:398a (Part of line obstacle: 398);NR:398a (Součást liniové překážky: 398)
+99873;398c;NEMCI;NĚMČÍ;pole;sloup;693;34;M;BpV;503717.49N;0140631.89E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:398c (Part of line obstacle: 398);NR:398c (Součást liniové překážky: 398)
+83870;165;NERATOVICE;NERATOVICE;chimney;komín;362;201;M;BpV;501625.69N;0143126.67E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83679;164;NERATOVICE;NERATOVICE;cooling tower;chladící věž;261;101;M;BpV;501654.92N;0143109.80E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83641;114;NESTEMICE;NEŠTĚMICE;chimney;komín;262;121;M;BpV;504018.41N;0140639.49E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83767;64;NOVA VES V HORACH;NOVÁ VES V HORÁCH;wind power plant;větrná elektrárna;830;100;M;BpV;503545.33N;0132939.94E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83766;63;NOVA VES V HORACH;NOVÁ VES V HORÁCH;wind power plant;větrná elektrárna;849;100;M;BpV;503541.87N;0132931.45E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83813;61;NOVA VES V HORACH;NOVÁ VES V HORÁCH;wind power plant;větrná elektrárna;860;120;M;BpV;503551.04N;0132927.30E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83812;65;NOVA VES V HORACH;NOVÁ VES V HORÁCH;wind power plant;větrná elektrárna;852;120;M;BpV;503556.27N;0132943.41E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83815;62;NOVA VES V HORACH;NOVÁ VES V HORÁCH;wind power plant;větrná elektrárna;854;120;M;BpV;503556.88N;0132928.23E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83814;60;NOVA VES V HORACH;NOVÁ VES V HORÁCH;wind power plant;větrná elektrárna;836;120;M;BpV;503558.26N;0132916.58E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83762;92;NOVE MESTO;NOVÉ MĚSTO;wind power plant;větrná elektrárna;975;118;M;BpV;504047.15N;0134134.70E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83764;94;NOVE MESTO;NOVÉ MĚSTO;wind power plant;větrná elektrárna;960;118;M;BpV;504057.70N;0134145.87E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83763;93;NOVE MESTO;NOVÉ MĚSTO;wind power plant;větrná elektrárna;967;118;M;BpV;504051.93N;0134141.85E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83700;228;NOVE MESTO NAD METUJI;NOVÉ MĚSTO NAD METUJÍ;chimney;komín;418;113;M;BpV;502153.17N;0160812.83E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83550;100;NOVOSEDLICE;NOVOSEDLICE;chimney;komín;390;130;M;BpV;503951.60N;0134926.05E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+100018;464c;NOVY HROZENKOV;NOVÝ HROZENKOV;pole;sloup;631;26;M;BpV;492050.31N;0180711.89E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:464c (Part of line obstacle: 464);NR:464c (Součást liniové překážky: 464)
+100016;464a;NOVY HROZENKOV;NOVÝ HROZENKOV;pole;sloup;631;26;M;BpV;492036.55N;0180705.20E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:464a (Part of line obstacle: 464);NR:464a (Součást liniové překážky: 464)
+83851;320;NOVY JICIN;NOVÝ JIČÍN;chimney;komín;389;102;M;BpV;493520.14N;0180106.87E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83678;180;NYMBURK;NYMBURK;chimney;komín;329;140;M;BpV;501143.22N;0150225.79E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83732;172;OLDRICHOVEC;OLDŘICHOVEC;mast;stožár;809;102;M;BpV;493609.13N;0144015.81E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+100015;463;OLDRISOV;OLDŘIŠOV;wind power plant;větrná elektrárna;453;150;M;BpV;500016.41N;0175757.75E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83613;284;OLOMOUC;OLOMOUC;chimney;komín;333;123;M;BpV;493514.45N;0171600.66E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83592;285;OLOMOUC;OLOMOUC;chimney;komín;329;113;M;BpV;493519.54N;0171740.04E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+101488;467;OPATOV;OPATOV;wind power plant;větrná elektrárna;788;119;M;BpV;501506.65N;0122626.60E;WGE;Day marking;Denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83684;216;OPATOVICE;OPATOVICE;chimney;komín;366;142;M;BpV;500735.48N;0154735.55E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83683;214;OPATOVICE;OPATOVICE;chimney;komín;345;121;M;BpV;500736.89N;0154731.65E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83685;215;OPATOVICE;OPATOVICE;chimney;komín;345;122;M;BpV;500734.01N;0154732.25E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83590;316;OPAVA;OPAVA;chimney;komín;370;112;M;BpV;495738.55N;0175211.29E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+99884;402c;ORLIK;ORLÍK;pole;sloup;442;34;M;BpV;493508.61N;0141020.06E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:402c (Part of line obstacle: 402);NR:402c (Součást liniové překážky: 402)
+99886;403b;ORLIK;ORLÍK;transmission line;el. vedení;475;133;M;BpV;493009.90N;0141101.35E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:403b (Part of line obstacle: 403);NR:403b (Součást liniové překážky: 403)
+99883;402b;ORLIK;ORLÍK;transmission line;el. vedení;462;122;M;BpV;493517.06N;0141008.45E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:402b (Part of line obstacle: 402);NR:402b (Součást liniové překážky: 402)
+99882;402a;ORLIK;ORLÍK;pole;sloup;472;23;M;BpV;493527.58N;0140952.05E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:402a (Part of line obstacle: 402);NR:402a (Součást liniové překážky: 402)
+99885;403a;ORLIK NAD VLTAVOU;ORLÍK NAD VLTAVOU;pole;sloup;469;65;M;BpV;493009.38N;0141039.53E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:403a (Part of line obstacle: 403);NR:403a (Součást liniové překážky: 403)
+99834;378b;OSELIN;OŠELÍN;transmission line;el. vedení;508;112;M;BpV;494657.83N;0125206.49E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:378b (Part of line obstacle: 378);NR:378b (Součást liniové překážky: 378)
+99833;378a;OSELIN;OŠELÍN;pole;sloup;504;37;M;BpV;494652.43N;0125154.07E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:378a (Part of line obstacle: 378);NR:378a (Součást liniové překážky: 378)
+99835;378c;OSELIN;OŠELÍN;pole;sloup;512;43;M;BpV;494702.90N;0125218.82E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:378c (Part of line obstacle: 378);NR:378c (Součást liniové překážky: 378)
+83848;336;OSTRAVA;OSTRAVA;chimney;komín;396;167;M;BpV;494744.08N;0181848.56E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+101491;470;OSTRAVA;OSTRAVA;chimney;komín;331;101;M;BpV;494736.24N;0181930.00E;WGE;Day marking;Denní značení;Night marking;Noční značení;Y;ValueEmpty;ValueEmpty
+101492;471;OSTRAVA;OSTRAVA;chimney;komín;330;101;M;BpV;494743.66N;0181930.35E;WGE;Day marking;Denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+100020;466;OSTRAVA;OSTRAVA;chimney;komín;351;121;M;BpV;494745.30N;0181847.08E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83713;331;OSTRAVA;OSTRAVA;chimney;komín;358;152;M;BpV;495138.10N;0181630.97E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83715;335;OSTRAVA;OSTRAVA;chimney;komín;318;100;M;BpV;495146.58N;0181800.93E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83714;334;OSTRAVA;OSTRAVA;chimney;komín;317;102;M;BpV;495140.11N;0181748.31E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83693;337;OSTRAVA;OSTRAVA;chimney;komín;452;221;M;BpV;494740.81N;0181848.88E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83692;343;OSTRAVA;OSTRAVA;chimney;komín;331;103;M;BpV;494718.39N;0181946.30E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83695;338;OSTRAVA;OSTRAVA;chimney;komín;346;111;M;BpV;494655.48N;0181849.90E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83694;344;OSTRAVA;OSTRAVA;chimney;komín;331;103;M;BpV;494723.30N;0181946.52E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83689;332;OSTRAVA;OSTRAVA;chimney;komín;318;102;M;BpV;494833.45N;0181648.26E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83690;330;OSTRAVA;OSTRAVA;chimney;komín;343;120;M;BpV;494857.70N;0181623.48E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83740;339;OSTRAVA;OSTRAVA;chimney;komín;353;123;M;BpV;494733.53N;0181919.80E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83717;328;OSTRAVA;OSTRAVA;TV transmitter;TV vysílač;472;186;M;BpV;495140.65N;0181245.05E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83720;329;OSTRAVA;OSTRAVA;chimney;komín;309;103;M;BpV;495025.86N;0181403.23E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83527;18;OSTROV;OSTROV;chimney;komín;499;111;M;BpV;501755.56N;0125649.89E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83832;257;OSTRY KAMEN;OSTRÝ KÁMEN;wind power plant;větrná elektrárna;679;100;M;BpV;494431.74N;0162315.24E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83833;256;OSTRY KAMEN;OSTRÝ KÁMEN;wind power plant;větrná elektrárna;676;100;M;BpV;494440.28N;0162314.38E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83834;255;OSTRY KAMEN;OSTRÝ KÁMEN;wind power plant;větrná elektrárna;672;100;M;BpV;494449.91N;0162313.85E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83593;305;OTROKOVICE;OTROKOVICE;chimney;komín;355;170;M;BpV;491217.20N;0173113.25E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83594;304;OTROKOVICE;OTROKOVICE;chimney;komín;314;119;M;BpV;491219.85N;0173111.80E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83889;361;PACOV-STRAZISTE;PACOV-STRÁŽIŠTĚ;TV transmitter;TV vysílač;820;87;M;BpV;493210.76N;0150014.55E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99876;399c;PANSKY MLYN;PANSKÝ MLÝN;pole;sloup;399;24;M;BpV;503754.47N;0140917.85E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:399c (Part of line obstacle: 399, 400);NR:399c (Součást liniové překážky: 399, 400)
+99875;399b;PANSKY MLYN;PANSKÝ MLÝN;transmission line;el. vedení;415;112;M;BpV;503753.90N;0140909.72E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:399b (Part of line obstacle: 399);NR:399b (Součást liniové překážky: 399)
+99878;400a;PANSKY MLYN;PANSKÝ MLÝN;transmission line;el. vedení;396;105;M;BpV;503756.05N;0140938.94E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:400a (Part of line obstacle: 400);NR:400a (Součást liniové překážky: 400)
+99877;400b;PANSKY MLYN;PANSKÝ MLÝN;pole;sloup;394;26;M;BpV;503757.09N;0140955.01E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:400b (Part of line obstacle: 400);NR:400b (Součást liniové překážky: 400)
+99874;399a;PANSKY MLYN;PANSKÝ MLÝN;pole;sloup;463;26;M;BpV;503751.55N;0140837.27E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:399a (Part of line obstacle: 399);NR:399a (Součást liniové překážky: 399)
+83686;213;PARDUBICE;PARDUBICE;radio transmitter;rozhlasový vysílač;326;109;M;BpV;500221.89N;0154603.35E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83682;210;PARDUBICE;PARDUBICE;chimney;komín;321;102;M;BpV;500329.55N;0154332.07E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83681;211;PARDUBICE;PARDUBICE;chimney;komín;320;101;M;BpV;500331.14N;0154333.82E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83696;333;PASKOV;PASKOV;chimney;komín;412;151;M;BpV;494251.14N;0181723.94E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83761;200;PAVLOV;PAVLOV;wind power plant;větrná elektrárna;818;145;M;BpV;491501.62N;0153258.56E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83760;199;PAVLOV;PAVLOV;wind power plant;větrná elektrárna;818;145;M;BpV;491513.66N;0153245.43E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+99997;451a;PECIKOV;PĚČÍKOV;pole;sloup;502;26;M;BpV;494333.40N;0164624.29E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:451a (Part of line obstacle: 451);NR:451a (Součást liniové překážky: 451)
+99999;451c;PECIKOV;PĚČÍKOV;pole;sloup;401;26;M;BpV;494324.32N;0164650.58E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:451c (Part of line obstacle: 451);NR:451c (Součást liniové překážky: 451)
+99998;451b;PECIKOV;PĚČÍKOV;transmission line;el. vedení;438;119;M;BpV;494326.48N;0164644.36E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:451b (Part of line obstacle: 451);NR:451b (Součást liniové překážky: 451)
+83765;104;PETROVICE;PETROVICE;wind power plant;větrná elektrárna;734;122;M;BpV;504638.16N;0135900.68E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83804;106;PETROVICE;PETROVICE;wind power plant;větrná elektrárna;713;120;M;BpV;504638.68N;0135919.15E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83830;116;PCHERY;PCHERY;wind power plant;větrná elektrárna;473;138;M;BpV;501146.27N;0140743.50E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83831;118;PCHERY;PCHERY;wind power plant;větrná elektrárna;471;138;M;BpV;501153.66N;0140804.15E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83738;119;PISEK;PÍSEK;chimney;komín;522;142;M;BpV;491723.51N;0140914.86E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83881;174;PLANA NAD LUZNICI;PLANÁ NAD LUŽNICÍ;chimney;komín;518;103;M;BpV;492205.07N;0144206.53E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83575;57;PLZEN;PLZEŇ;chimney;komín;490;171;M;BpV;494515.74N;0132355.65E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83577;56;PLZEN;PLZEŇ;church;kostel;415;102;M;BpV;494451.33N;0132238.20E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83576;55;PLZEN;PLZEŇ;chimney;komín;448;112;M;BpV;494421.89N;0132040.06E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99851;386;POCERADY;POČERADY;cooling tower;chladící věž;343;129;M;BpV;502548.85N;0134029.30E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99853;388;POCERADY;POČERADY;chimney;komín;326;113;M;BpV;502542.63N;0134035.00E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99852;387;POCERADY;POČERADY;chimney;komín;326;113;M;BpV;502543.52N;0134033.56E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83541;86;POCERADY;POČERADY;cooling tower;chladící věž;313;102;M;BpV;502549.76N;0134037.22E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83540;87;POCERADY;POČERADY;chimney;komín;415;203;M;BpV;502535.82N;0134038.41E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83543;88;POCERADY;POČERADY;cooling tower;chladící věž;314;106;M;BpV;502547.47N;0134040.78E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83542;89;POCERADY;POČERADY;cooling tower;chladící věž;314;104;M;BpV;502550.92N;0134042.55E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83537;90;POCERADY;POČERADY;chimney;komín;415;205;M;BpV;502536.30N;0134043.82E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83539;91;POCERADY;POČERADY;cooling tower;chladící věž;314;104;M;BpV;502548.63N;0134046.16E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83538;85;POCERADY;POČERADY;chimney;komín;436;224;M;BpV;502541.04N;0134036.24E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83871;183;PODEBRADY;PODĚBRADY;mast;stožár;338;150;M;BpV;500811.69N;0150839.87E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83872;182;PODEBRADY;PODĚBRADY;mast;stožár;338;150;M;BpV;500819.78N;0150839.49E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83719;278;POSTORNA;POŠTORNÁ;chimney;komín;291;131;M;BpV;484421.10N;0165200.87E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83756;283;PRADED;PRADĚD;TV transmitter;TV vysílač;1642;150;M;BpV;500459.09N;0171351.47E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83868;154;PRAHA;PRAHA;chimney;komín;287;100;M;BpV;500636.17N;0142610.15E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83869;138;PRAHA;PRAHA;chimney;komín;397;124;M;BpV;500320.50N;0142246.14E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+104858;472;PRAHA;PRAHA;Building;Budova;373;105;M;BpV;500256.40N;0142608.60E;WGE;without marking;bez značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99935;421;PRAHA;PRAHA;building;budova;383;116;M;BpV;500300.44N;0142610.96E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83648;155;PRAHA;PRAHA;building;budova;394;132;M;BpV;500300.80N;0142621.50E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83649;159;PRAHA;PRAHA;chimney;komín;337;121;M;BpV;500315.02N;0142810.93E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83655;170;PRAHA;PRAHA;chimney;komín;393;114;M;BpV;500240.23N;0143426.03E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83654;168;PRAHA;PRAHA;chimney;komín;436;179;M;BpV;500443.86N;0143227.80E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83651;166;PRAHA;PRAHA;chimney;komín;396;162;M;BpV;500504.98N;0143127.24E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83650;158;PRAHA;PRAHA;chimney;komín;354;141;M;BpV;500315.08N;0142807.50E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83688;156;PRAHA;PRAHA;TV transmitter;TV vysílač;476;222;M;BpV;500451.71N;0142703.80E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83754;135;PRAHA 5 - RADOTIN;PRAHA 5 - RADOTÍN;chimney;komín;297;106;M;BpV;495924.35N;0142235.34E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83727;206;PRACHOVICE;PRACHOVICE;chimney;komín;542;123;M;BpV;495344.93N;0153835.04E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83726;205;PRACHOVICE;PRACHOVICE;chimney;komín;546;122;M;BpV;495343.75N;0153820.99E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83728;203;PRACHOVICE;PRACHOVICE;chimney;komín;531;103;M;BpV;495340.68N;0153813.74E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83618;300;PREROV;PŘEROV;chimney;komín;307;100;M;BpV;492654.23N;0172551.50E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83617;298;PREROV;PŘEROV;chimney;komín;334;126;M;BpV;492642.46N;0172541.93E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83620;299;PREROV;PŘEROV;chimney;komín;309;100;M;BpV;492703.88N;0172551.38E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83619;297;PREROV;PŘEROV;chimney;komín;308;101;M;BpV;492659.65N;0172533.94E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83622;103;PRIBRAM;PŘÍBRAM;chimney;komín;666;161;M;BpV;494218.08N;0135844.53E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83621;108;PRIBRAM;PŘÍBRAM;chimney;komín;648;150;M;BpV;494151.31N;0135942.93E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83583;129;PRISECNA;PŘÍSEČNÁ;chimney;komín;655;114;M;BpV;485007.59N;0142014.18E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83882;276;PROTIVANOV;PROTIVANOV;wind power plant;větrná elektrárna;805;123;M;BpV;492838.26N;0165055.37E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83776;277;PROTIVANOV;PROTIVANOV;wind power plant;větrná elektrárna;800;123;M;BpV;492835.83N;0165117.44E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83565;50;PRUNEROV;PRUNÉŘOV;chimney;komín;657;301;M;BpV;502504.24N;0131533.05E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83567;53;PRUNEROV;PRUNÉŘOV;cooling tower;chladící věž;481;120;M;BpV;502515.51N;0131559.23E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83566;51;PRUNEROV;PRUNÉŘOV;cooling tower;chladící věž;461;100;M;BpV;502515.06N;0131544.56E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83569;49;PRUNEROV;PRUNÉŘOV;chimney;komín;554;200;M;BpV;502442.57N;0131510.09E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83568;52;PRUNEROV;PRUNÉŘOV;cooling tower;chladící věž;481;120;M;BpV;502515.27N;0131551.64E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+99970;438c;RADIMOVICE;RADIMOVICE;pole;sloup;431;47;M;BpV;503809.51N;0150445.94E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:438c (Part of line obstacle: 438);NR:438c (Součást liniové překážky: 438)
+99969;438b;RADIMOVICE;RADIMOVICE;transmission line;el. vedení;433;128;M;BpV;503757.08N;0150433.07E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:438b (Part of line obstacle: 438);NR:438b (Součást liniové překážky: 438)
+99968;438a;RADIMOVICE;RADIMOVICE;pole;sloup;435;47;M;BpV;503749.10N;0150423.72E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:438a (Part of line obstacle: 438);NR:438a (Součást liniové překážky: 438)
+100010;458;REJCHARTICE;REJCHARTICE;wind power plant;větrná elektrárna;818;130;M;BpV;494747.56N;0173105.48E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+100009;457;REJCHARTICE;REJCHARTICE;wind power plant;větrná elektrárna;813;130;M;BpV;494727.53N;0173058.64E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+100012;459;REJCHARTICE;REJCHARTICE;wind power plant;větrná elektrárna;814;130;M;BpV;494726.91N;0173116.66E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+100011;460;REJCHARTICE;REJCHARTICE;wind power plant;větrná elektrárna;819;130;M;BpV;494738.37N;0173116.66E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+100013;461;REJCHARTICE;REJCHARTICE;wind power plant;větrná elektrárna;822;130;M;BpV;494749.31N;0173122.93E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+100014;462;REJCHARTICE;REJCHARTICE;wind power plant;větrná elektrárna;817;130;M;BpV;494800.42N;0173127.05E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99983;444b;ROKYTNICE NAD JIZEROU;ROKYTNICE NAD JIZEROU;transmission line;el. vedení;569;102;M;BpV;504329.77N;0152450.58E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:444b (Part of line obstacle: 444);NR:444b (Součást liniové překážky: 444)
+99982;444a;ROKYTNICE NAD JIZEROU;ROKYTNICE NAD JIZEROU;pole;sloup;567;40;M;BpV;504328.39N;0152439.70E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:444a (Part of line obstacle: 444);NR:444a (Součást liniové překážky: 444)
+99984;444c;ROKYTNICE NAD JIZEROU;ROKYTNICE NAD JIZEROU;pole;sloup;571;41;M;BpV;504332.54N;0152459.32E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:444c (Part of line obstacle: 444);NR:444c (Součást liniové překážky: 444)
+99947;425c;ROKYTOVEC;ROKYTOVEC;pole;sloup;332;44;M;BpV;502443.39N;0145028.43E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:425c (Part of line obstacle: 425);NR:425c (Součást liniové překážky: 425)
+99946;425b;ROKYTOVEC;ROKYTOVEC;transmission line;el. vedení;328;103;M;BpV;502436.15N;0145022.72E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:425b (Part of line obstacle: 425);NR:425b (Součást liniové překážky: 425)
+99945;425a;ROKYTOVEC;ROKYTOVEC;pole;sloup;323;44;M;BpV;502427.77N;0145017.24E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:425a (Part of line obstacle: 425);NR:425a (Součást liniové překážky: 425)
+99994;449b;ROZHRANI;ROZHRANÍ;transmission line;el. vedení;513;154;M;BpV;493621.38N;0163149.84E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:449b (Part of line obstacle: 449);NR:449b (Součást liniové překážky: 449)
+99993;449a;ROZHRANI;ROZHRANÍ;pole;sloup;558;33;M;BpV;493620.88N;0163125.36E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:449a (Part of line obstacle: 449);NR:449a (Součást liniové překážky: 449)
+99995;449c;ROZHRANI;ROZHRANÍ;pole;sloup;483;50;M;BpV;493621.54N;0163205.33E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:449c (Part of line obstacle: 449);NR:449c (Součást liniové překážky: 449)
+83597;243;ROZNA;ROŽNÁ;chimney;komín;581;100;M;BpV;492932.95N;0161405.25E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83724;322;ROZNOV POD RADHOSTEM;ROŽNOV POD RADHOŠTĚM;chimney;komín;492;126;M;BpV;492739.10N;0180727.55E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+100006;454;ROZSTANI;ROZSTÁNÍ;wind power plant;větrná elektrárna;709;150;M;BpV;492315.87N;0165106.81E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83779;36;RUSOVA;RUSOVÁ;wind power plant;větrná elektrárna;962;120;M;BpV;502649.51N;0130934.69E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83778;34;RUSOVA;RUSOVÁ;wind power plant;větrná elektrárna;990;120;M;BpV;502642.80N;0130856.42E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83780;35;RUSOVA;RUSOVÁ;wind power plant;větrná elektrárna;982;120;M;BpV;502644.86N;0130915.86E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83702;244;RYCHNOV NAD KNEZNOU;RYCHNOV NAD KNĚŽNOU;chimney;komín;452;101;M;BpV;500940.02N;0161717.05E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+99979;443a;SEMILY;SEMILY;pole;sloup;401;40;M;BpV;503646.91N;0151845.87E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:443a (Part of line obstacle: 443);NR:443a (Součást liniové překážky: 443)
+99981;443c;SEMILY;SEMILY;pole;sloup;421;34;M;BpV;503700.47N;0151847.28E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:443c (Part of line obstacle: 443);NR:443c (Součást liniové překážky: 443)
+99980;443b;SEMILY;SEMILY;transmission line;el. vedení;408;100;M;BpV;503651.90N;0151845.94E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:443b (Part of line obstacle: 443);NR:443b (Součást liniové překážky: 443)
+83660;191;SEMILY;SEMILY;chimney;komín;420;105;M;BpV;503646.41N;0151927.97E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+99857;390c;SKRYJE;SKRYJE;pole;sloup;356;43;M;BpV;495802.93N;0134519.23E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:390c (Part of line obstacle: 390);NR:390c (Součást liniové překážky: 390)
+99856;390b;SKRYJE;SKRYJE;transmission line;el. vedení;361;111;M;BpV;495811.40N;0134511.03E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:390b (Part of line obstacle: 390);NR:390b (Součást liniové překážky: 390)
+99855;390a;SKRYJE;SKRYJE;pole;sloup;362;43;M;BpV;495819.49N;0134503.49E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:390a (Part of line obstacle: 390);NR:390a (Součást liniové překážky: 390)
+83843;317;SLAVICIN;SLAVIČÍN;chimney;komín;449;105;M;BpV;490602.67N;0175449.95E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83531;13;SOKOLOV;SOKOLOV;chimney;komín;581;182;M;BpV;501051.04N;0123947.42E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83841;301;SPYTIHNEV JIH;SPYTIHNĚV JIH;radio transmitter;rozhlasový vysílač;451;270;M;BpV;490718.78N;0173041.78E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83842;302;SPYTIHNEV SEVER;SPYTIHNĚV SEVER;radio transmitter;rozhlasový vysílač;451;270;M;BpV;490732.84N;0173045.98E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99923;417a;STECHOVICE;ŠTĚCHOVICE;pole;sloup;353;33;M;BpV;495123.41N;0142343.47E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:417a (Part of line obstacle: 417);NR:417a (Součást liniové překážky: 417)
+99929;419a;STECHOVICE;ŠTĚCHOVICE;pole;sloup;329;23;M;BpV;495117.92N;0142350.50E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:419a (Part of line obstacle: 419);NR:419a (Součást liniové překážky: 419)
+99931;419c;STECHOVICE;ŠTĚCHOVICE;pole;sloup;267;26;M;BpV;495125.17N;0142411.45E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:419c (Part of line obstacle: 419);NR:419c (Součást liniové překážky: 419)
+99930;419b;STECHOVICE;ŠTĚCHOVICE;transmission line;el. vedení;317;115;M;BpV;495120.09N;0142356.94E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:419b (Part of line obstacle: 419);NR:419b (Součást liniové překážky: 419)
+99925;417c;STECHOVICE;ŠTĚCHOVICE;pole;sloup;290;46;M;BpV;495126.18N;0142414.84E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:417c (Part of line obstacle: 417);NR:417c (Součást liniové překážky: 417)
+99924;417b;STECHOVICE;ŠTĚCHOVICE;transmission line;el. vedení;335;136;M;BpV;495124.37N;0142353.52E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:417b (Part of line obstacle: 417);NR:417b (Součást liniové překážky: 417)
+99932;420a;STECHOVICE;ŠTĚCHOVICE;pole;sloup;366;25;M;BpV;495009.65N;0142352.35E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:420a (Part of line obstacle: 420);NR:420a (Součást liniové překážky: 420)
+99934;420c;STECHOVICE;ŠTĚCHOVICE;pole;sloup;397;25;M;BpV;495004.01N;0142406.24E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:420c (Part of line obstacle: 420);NR:420c (Součást liniové překážky: 420)
+99933;420b;STECHOVICE;ŠTĚCHOVICE;transmission line;el. vedení;381;100;M;BpV;495006.53N;0142359.70E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:420b (Part of line obstacle: 420);NR:420b (Součást liniové překážky: 420)
+83646;141;STETI;ŠTĚTÍ;chimney;komín;320;163;M;BpV;502741.89N;0142248.19E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83645;134;STETI;ŠTĚTÍ;chimney;komín;310;155;M;BpV;502739.32N;0142233.17E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83647;140;STETI;ŠTĚTÍ;chimney;komín;261;102;M;BpV;502741.23N;0142246.63E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83644;132;STETI;ŠTĚTÍ;chimney;komín;284;127;M;BpV;502736.60N;0142220.94E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99847;384c;STICHOVICE;ŠTICHOVICE;pole;sloup;445;43;M;BpV;495914.98N;0131858.68E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:384c (Part of line obstacle: 384);NR:384c (Součást liniové překážky: 384)
+99846;384b;STICHOVICE;ŠTICHOVICE;transmission line;el. vedení;471;114;M;BpV;495906.54N;0131845.53E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:384b (Part of line obstacle: 384);NR:384b (Součást liniové překážky: 384)
+99845;384a;STICHOVICE;ŠTICHOVICE;pole;sloup;482;32;M;BpV;495902.35N;0131839.49E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:384a (Part of line obstacle: 384);NR:384a (Součást liniové překážky: 384)
+83625;101;STRAKONICE;STRAKONICE;chimney;komín;540;148;M;BpV;491518.36N;0135420.80E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99952;427b;STRAZISTE;STRÁŽIŠTĚ;transmission line;el. vedení;376;113;M;BpV;503520.66N;0145627.85E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:427b (Part of line obstacle: 427);NR:427b (Součást liniové překážky: 427)
+99951;427a;STRAZISTE;STRÁŽIŠTĚ;pole;sloup;359;19;M;BpV;503520.81N;0145612.47E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:427a (Part of line obstacle: 427);NR:427a (Součást liniové překážky: 427)
+99953;427c;STRAZISTE;STRÁŽIŠTĚ;pole;sloup;386;19;M;BpV;503520.50N;0145636.98E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:427c (Part of line obstacle: 427);NR:427c (Součást liniové překážky: 427)
+99976;442a;TANVALD;TANVALD;pole;sloup;631;24;M;BpV;504448.74N;0151541.76E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:442a (Part of line obstacle: 442);NR:442a (Součást liniové překážky: 442)
+99977;442b;TANVALD;TANVALD;transmission line;el. vedení;607;102;M;BpV;504448.36N;0151555.71E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:442b (Part of line obstacle: 442);NR:442b (Součást liniové překážky: 442)
+99978;442c;TANVALD;TANVALD;pole;sloup;588;24;M;BpV;504449.71N;0151606.21E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:442c (Part of line obstacle: 442);NR:442c (Součást liniové překážky: 442)
+83744;143;TEMELIN;TEMELÍN;cooling tower;chladící věž;659;155;M;BpV;491031.71N;0142255.09E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83750;136;TEMELIN;TEMELÍN;chimney;komín;608;101;M;BpV;491056.21N;0142235.68E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83749;133;TEMELIN;TEMELÍN;chimney;komín;610;103;M;BpV;491050.91N;0142230.65E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83746;145;TEMELIN;TEMELÍN;cooling tower;chladící věž;659;155;M;BpV;491036.56N;0142300.52E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83745;139;TEMELIN;TEMELÍN;cooling tower;chladící věž;659;155;M;BpV;491033.21N;0142246.54E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83748;137;TEMELIN;TEMELÍN;chimney;komín;610;103;M;BpV;491048.48N;0142237.50E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83747;142;TEMELIN;TEMELÍN;cooling tower;chladící věž;659;155;M;BpV;491038.00N;0142252.01E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83858;98;TEPLICE;TEPLICE;chimney;komín;341;112;M;BpV;503827.23N;0134821.31E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83549;99;TEPLICE;TEPLICE;chimney;komín;370;141;M;BpV;503824.50N;0134821.50E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83874;97;TEPLICE - RETENICE;TEPLICE - ŘETENICE;chimney;komín;355;120;M;BpV;503835.05N;0134806.05E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83865;12;TISOVA;TISOVÁ;chimney;komín;512;105;M;BpV;500901.90N;0123640.49E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83534;9;TISOVA;TISOVÁ;chimney;komín;507;100;M;BpV;500856.90N;0123636.17E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83533;10;TISOVA;TISOVÁ;chimney;komín;507;100;M;BpV;500856.76N;0123637.19E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83535;11;TISOVA;TISOVÁ;chimney;komín;508;100;M;BpV;500859.54N;0123638.36E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83755;220;TREBIC;TŘEBÍČ;chimney;komín;560;101;M;BpV;491221.39N;0155339.80E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83757;218;TREBIC;TŘEBÍČ;chimney;komín;532;110;M;BpV;491224.55N;0155143.22E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83653;163;TREBORADICE;TŘEBORADICE;chimney;komín;394;153;M;BpV;500953.25N;0143052.16E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83704;327;TREBOVICE;TŘEBOVICE;chimney;komín;311;102;M;BpV;494953.29N;0181242.31E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83711;326;TREBOVICE;TŘEBOVICE;chimney;komín;312;102;M;BpV;494954.67N;0181240.57E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83710;325;TREBOVICE;TŘEBOVICE;chimney;komín;313;102;M;BpV;494956.85N;0181238.20E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83741;360;TRINEC;TŘINEC;chimney;komín;402;102;M;BpV;494048.73N;0183927.16E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83743;356;TRINEC;TŘINEC;chimney;komín;405;114;M;BpV;494200.80N;0183800.57E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83742;359;TRINEC;TŘINEC;chimney;komín;403;102;M;BpV;494050.12N;0183916.17E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83735;357;TRINEC;TŘINEC;chimney;komín;399;100;M;BpV;494141.55N;0183849.99E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83734;358;TRINEC;TŘINEC;chimney;komín;417;122;M;BpV;494101.64N;0183850.42E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83546;107;TRMICE;TRMICE;chimney;komín;369;216;M;BpV;503839.53N;0135920.64E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83545;105;TRMICE;TRMICE;chimney;komín;370;225;M;BpV;503841.15N;0135912.47E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83670;225;TRUTNOV;TRUTNOV;chimney;komín;485;102;M;BpV;503420.40N;0155751.16E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83671;224;TRUTNOV;TRUTNOV;chimney;komín;485;101;M;BpV;503423.26N;0155749.59E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83840;242;TULESICE;TULEŠICE;wind power plant;větrná elektrárna;501;150;M;BpV;490246.47N;0161123.80E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+100017;464b;U SVRCINU;U SVRČINŮ;transmission line;el. vedení;631;107;M;BpV;492043.97N;0180708.89E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:464b (Part of line obstacle: 464);NR:464b (Součást liniové překážky: 464)
+83630;112;USTI NAD LABEM;ÚSTÍ NAD LABEM;chimney;komín;261;101;M;BpV;503902.78N;0140305.90E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83559;102;UZIN;ÚŽIN;chimney;komín;311;102;M;BpV;504120.47N;0135737.44E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+104870;474;VACLAVICE;VÁCLAVICE;wind power plant;větrná elektrárna;473;128;M;BpV;505209.08N;0145600.72E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+104859;473;VACLAVICE;VÁCLAVICE;wind power plant;větrná elektrárna;528;128;M;BpV;505146.66N;0145551.80E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+104876;476;VACLAVICE;VÁCLAVICE;wind power plant;větrná elektrárna;542;128;M;BpV;505134.74N;0145620.98E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+104875;475;VACLAVICE;VÁCLAVICE;wind power plant;větrná elektrárna;504;128;M;BpV;505159.07N;0145609.79E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+104877;477;VACLAVICE;VÁCLAVICE;wind power plant;větrná elektrárna;546;129;M;BpV;505151.01N;0145623.57E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+104883;483;VACLAVICE;VÁCLAVICE;wind power plant;větrná elektrárna;544;129;M;BpV;505123.44N;0145706.66E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+104882;481;VACLAVICE;VÁCLAVICE;wind power plant;větrná elektrárna;583;128;M;BpV;505136.98N;0145654.42E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+104905;485;VACLAVICE;VÁCLAVICE;wind power plant;větrná elektrárna;583;124;M;BpV;505130.78N;0145717.66E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+104884;484;VACLAVICE;VÁCLAVICE;wind power plant;větrná elektrárna;603;125;M;BpV;505138.02N;0145714.32E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+104879;479;VACLAVICE;VÁCLAVICE;wind power plant;větrná elektrárna;576;128;M;BpV;505151.29N;0145642.28E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+104878;478;VACLAVICE;VÁCLAVICE;wind power plant;větrná elektrárna;576;128;M;BpV;505139.55N;0145639.95E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+104881;482;VACLAVICE;VÁCLAVICE;wind power plant;větrná elektrárna;615;129;M;BpV;505144.15N;0145703.52E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+104880;480;VACLAVICE;VÁCLAVICE;wind power plant;větrná elektrárna;550;128;M;BpV;505129.69N;0145645.43E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83845;318;VALASSKE MEZIRICI;VALAŠSKÉ MEZIŘÍČÍ;chimney;komín;447;160;M;BpV;492941.41N;0175717.88E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83701;245;VAMBERK;VAMBERK;chimney;komín;430;111;M;BpV;500720.90N;0161717.99E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83656;171;VARNSDORF;VARNSDORF;chimney;komín;450;121;M;BpV;505415.25N;0143814.73E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83585;157;VELESIN;VELEŠÍN;chimney;komín;652;112;M;BpV;484955.43N;0142753.06E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83721;308;VELKA JAVORINA;VELKÁ JAVOŘINA;TV transmitter;TV vysílač;1074;115;M;BpV;485126.49N;0174030.35E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83775;314;VESELI;VESELÍ;wind power plant;větrná elektrárna;659;125;M;BpV;493840.15N;0174732.88E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83774;313;VESELI;VESELÍ;wind power plant;větrná elektrárna;656;125;M;BpV;493853.28N;0174722.81E;WGE;ValueEmpty;ValueEmpty;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83584;124;VETRNI;VĚTŘNÍ;chimney;komín;613;121;M;BpV;484655.83N;0141754.10E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83838;208;VEZNICE;VĚŽNICE;wind power plant;větrná elektrárna;643;126;M;BpV;493134.76N;0154204.93E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83837;207;VEZNICE;VĚŽNICE;wind power plant;větrná elektrárna;634;126;M;BpV;493124.36N;0154152.74E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99988;447b;VIR;VÍR;transmission line;el. vedení;522;124;M;BpV;493347.38N;0161835.43E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:447b (Part of line obstacle: 447);NR:447b (Součást liniové překážky: 447)
+99987;447a;VIR;VÍR;pole;sloup;511;10;M;BpV;493350.33N;0161820.03E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:447a (Part of line obstacle: 447);NR:447a (Součást liniové překážky: 447)
+99989;447c;VIR;VÍR;pole;sloup;530;9;M;BpV;493345.22N;0161846.82E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:447c (Part of line obstacle: 447);NR:447c (Součást liniové překážky: 447)
+99919;415c;VRANE NAD VLTAVOU;VRANÉ NAD VLTAVOU;pole;sloup;363;43;M;BpV;495620.11N;0142343.57E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:415c (Part of line obstacle: 415);NR:415c (Součást liniové překážky: 415)
+99918;415b;VRANE NAD VLTAVOU;VRANÉ NAD VLTAVOU;transmission line;el. vedení;360;165;M;BpV;495625.93N;0142335.22E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:415b (Part of line obstacle: 415);NR:415b (Součást liniové překážky: 415)
+99917;415a;VRANE NAD VLTAVOU;VRANÉ NAD VLTAVOU;pole;sloup;318;62;M;BpV;495638.58N;0142316.85E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:415a (Part of line obstacle: 415);NR:415a (Součást liniové překážky: 415)
+99911;413a;VRANE NAD VLTAVOU;VRANÉ NAD VLTAVOU;pole;sloup;392;30;M;BpV;495623.50N;0142213.32E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:413a (Part of line obstacle: 413);NR:413a (Součást liniové překážky: 413)
+99913;413c;VRANE NAD VLTAVOU;VRANÉ NAD VLTAVOU;pole;sloup;221;17;M;BpV;495614.24N;0142231.71E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:413c (Part of line obstacle: 413);NR:413c (Součást liniové překážky: 413)
+99912;413b;VRANE NAD VLTAVOU;VRANÉ NAD VLTAVOU;transmission line;el. vedení;310;105;M;BpV;495616.07N;0142226.97E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:413b (Part of line obstacle: 413);NR:413b (Součást liniové překážky: 413)
+99841;382;VRBICE;VRBICE;wind power plant;větrná elektrárna;757;140;M;BpV;500927.79N;0131333.92E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99840;381;VRBICE;VRBICE;wind power plant;větrná elektrárna;756;140;M;BpV;500920.06N;0131315.01E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83876;14;VRESOVA;VŘESOVÁ;chimney;komín;600;125;M;BpV;501516.18N;0124145.13E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+83530;15;VRESOVA;VŘESOVÁ;chimney;komín;679;206;M;BpV;501521.12N;0124145.59E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83846;319;VSETIN;VSETÍN;chimney;komín;451;110;M;BpV;492039.96N;0175853.74E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+99896;408a;VYSOKA LIPA;VYSOKÁ LÍPA;pole;sloup;301;14;M;BpV;505117.17N;0141956.64E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:408a (Part of line obstacle: 408);NR:408a (Součást liniové překážky: 408
+99898;408c;VYSOKA LIPA;VYSOKÁ LÍPA;pole;sloup;297;14;M;BpV;505117.37N;0142011.63E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:408c (Part of line obstacle: 408);NR:408c (Součást liniové překážky: 408)
+99897;408b;VYSOKA LIPA;VYSOKÁ LÍPA;transmission line;el. vedení;299;116;M;BpV;505117.28N;0142005.39E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:408b (Part of line obstacle: 408);NR:408b (Součást liniové překážky: 408)
+100001;452b;ZABREH;ZÁBŘEH;transmission line;el. vedení;487;145;M;BpV;495050.93N;0164946.98E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:452b (Part of line obstacle: 452);NR:452b (Součást liniové překážky: 452)
+100000;452a;ZABREH;ZÁBŘEH;pole;sloup;470;36;M;BpV;495049.30N;0164933.89E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:452a (Part of line obstacle: 452);NR:452a (Součást liniové překážky: 452)
+100003;453a;ZABREH;ZÁBŘEH;pole;sloup;468;37;M;BpV;495047.51N;0164937.98E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:453a (Part of line obstacle: 453);NR:453a (Součást liniové překážky: 453)
+100002;452c;ZABREH;ZÁBŘEH;pole;sloup;501;46;M;BpV;495052.35N;0164958.40E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:452c (Part of line obstacle: 452);NR:452c (Součást liniové překážky: 452)
+100004;453b;ZABREH;ZÁBŘEH;transmission line;el. vedení;464;120;M;BpV;495048.66N;0164947.14E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:453b (Part of line obstacle: 453);NR:453b (Součást liniové překážky: 453)
+100005;453c;ZABREH;ZÁBŘEH;pole;sloup;460;34;M;BpV;495049.93N;0164957.26E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:453c (Part of line obstacle: 453);NR:453c (Součást liniové překážky: 453)
+83839;223;ZDAR NAD SAZAVOU;ŽĎÁR NAD SÁZAVOU;chimney;komín;677;102;M;BpV;493314.13N;0155605.04E;WGE;day marking;denní značení;ValueEmpty;ValueEmpty;N;ValueEmpty;ValueEmpty
+99965;437a;ZDERADINY;ZDERADINY;pole;sloup;455;44;M;BpV;494808.75N;0150229.13E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:437a (Part of line obstacle: 437);NR:437a (Součást liniové překážky: 437)
+99967;437c;ZDERADINY;ZDERADINY;pole;sloup;464;44;M;BpV;494805.90N;0150300.20E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:437c (Part of line obstacle: 437);NR:437c (Součást liniové překážky: 437)
+99966;437b;ZDERADINY;ZDERADINY;transmission line;el. vedení;460;108;M;BpV;494807.53N;0150246.75E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:437b (Part of line obstacle: 437);NR:437b (Součást liniové překážky: 437)
+99974;441b;ZELEZNY BROD;ŽELEZNÝ BROD;transmission line;el. vedení;406;113;M;BpV;503854.40N;0151520.10E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:441b (Part of line obstacle: 441);NR:441b (Součást liniové překážky: 441)
+99973;441a;ZELEZNY BROD;ŽELEZNÝ BROD;pole;sloup;418;16;M;BpV;503856.41N;0151506.90E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:441a (Part of line obstacle: 441);NR:441a (Součást liniové překážky: 441)
+99975;441c;ZELEZNY BROD;ŽELEZNÝ BROD;pole;sloup;396;31;M;BpV;503852.51N;0151531.73E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:441c (Part of line obstacle: 441);NR:441c (Součást liniové překážky: 441)
+83807;271;ZIPOTIN-GRUNA;ŽIPOTÍN-GRUNA;wind power plant;větrná elektrárna;642;118;M;BpV;494641.66N;0164605.71E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83806;272;ZIPOTIN-GRUNA;ŽIPOTÍN-GRUNA;wind power plant;větrná elektrárna;646;118;M;BpV;494633.19N;0164614.95E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99986;446;ZLATA OLESNICE;ZLATÁ OLEŠNICE;wind power plant;větrná elektrárna;760;145;M;BpV;503727.53N;0155801.16E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+101490;469;ZLATA OLESNICE;ZLATÁ OLEŠNICE;wind power plant;větrná elektrárna;772;149;M;BpV;503708.16N;0155826.82E;WGE;Day marking;Denní značení;Night marking;Noční značení;Y;ValueEmpty;ValueEmpty
+83886;307;ZLIN;ZLÍN;chimney;komín;354;143;M;BpV;491331.44N;0173914.22E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+83595;306;ZLIN;ZLÍN;chimney;komín;331;123;M;BpV;491331.49N;0173905.72E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty
+99839;380c;ZLUTICE;ŽLUTICE;pole;sloup;559;38;M;BpV;500541.74N;0131158.13E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:380c (Part of line obstacle: 380);NR:380c (Součást liniové překážky: 380)
+99838;380b;ZLUTICE;ŽLUTICE;transmission line;el. vedení;567;103;M;BpV;500533.26N;0131146.27E;WGE;unknown;není známo;ValueEmpty;ValueEmpty;N;NR:380b (Part of line obstacle: 380);NR:380b (Součást liniové překážky: 380)
+99837;380a;ZLUTICE;ŽLUTICE;pole;sloup;571;44;M;BpV;500526.27N;0131138.58E;WGE;without marking;bez značení;ValueEmpty;ValueEmpty;N;NR:380a (Part of line obstacle: 380);NR:380a (Součást liniové překážky: 380)
+83722;321;ZUBRI;ZUBŘÍ;chimney;komín;459;110;M;BpV;492744.71N;0180523.79E;WGE;day marking;denní značení;night marking;noční značení;Y;ValueEmpty;ValueEmpty

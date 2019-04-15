@@ -1,4 +1,4 @@
-package dev.cryo.aip.control;
+package dev.cryo.aip.model;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,15 +8,12 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
 import org.apache.pdfbox.text.PDFTextStripper;
 
-import dev.cryo.aip.model.Obstacle;
-import dev.cryo.aip.model.ParseException;
-
 public abstract class ObstacleParser {
 	protected File file;
 	protected String textFromPDF;
 	protected ArrayList<Obstacle> obstacles;
 
-	public ObstacleParser() {
+	protected ObstacleParser() {
 		this.obstacles = new ArrayList<Obstacle>();
 	}
 	

@@ -1,12 +1,11 @@
-package dev.cryo.aip.parsers;
+package dev.cryo.aip.countries;
 
 import java.io.IOException;
-import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.List;
 
-import dev.cryo.aip.control.ObstacleParser;
-import dev.cryo.aip.model.Obstacle;
+import dev.cryo.aip.model.ObstacleParser;
 import dev.cryo.aip.model.ParseException;
 
 public class ESObstacleParser extends ObstacleParser {
@@ -17,7 +16,7 @@ public class ESObstacleParser extends ObstacleParser {
 		boolean titleFound = false;
 		String wef = "";
 
-		List<String> lines = Files.readAllLines(file.toPath(), Charset.forName("ISO8859_1"));
+		List<String> lines = Files.readAllLines(file.toPath(), StandardCharsets.ISO_8859_1);
 		try {
 			for (String line : lines) {
 
@@ -46,10 +45,10 @@ public class ESObstacleParser extends ObstacleParser {
 				if (wef.isEmpty()) fail();
 				
 				// Check if the line has the right amount of elements
-				String[] lineData = line.split(";");
+				String[] lineData = line.split(";", -1);
 				if (lineData.length != 9) fail();
 				
-				obstacles.add(new Obstacle(
+				obstacles.add(new ESObstacle(
 						lineData[0],
 						lineData[1],
 						lineData[2],
