@@ -1,10 +1,10 @@
-# OFMX AIP Parser
+# OFMX Obstacle Parser
 
 This program is slowly becoming a tool to parse various AIP pages to the [OFMX](https://github.com/openflightmaps/ofmx) format.
 
 ## Where to get it
 
-The OFM obstacle translator can be downloaded from [here](https://github.com/cryodevab/aip-parser/raw/master/downloads/ofmx_parser.jar). It currently supports Sweden (ES), Greece (LG) and Czechia (LK).
+The OFMX obstacle parser can be downloaded from [here](https://github.com/cryodevab/aip-parser/raw/master/downloads/ofmx_parser.jar). It currently supports Sweden (ES), Greece (LG) and Czechia (LK).
 
 ## How to run it
 
