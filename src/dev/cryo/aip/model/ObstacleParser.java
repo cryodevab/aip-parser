@@ -1,8 +1,10 @@
 package dev.cryo.aip.model;
 
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
@@ -17,25 +19,30 @@ public abstract class ObstacleParser {
 		this.obstacles = new ArrayList<Obstacle>();
 	}
 	
-	public void loadTextFile(File file) {
+	public void loadFile(File file) throws InvalidPasswordException, IOException {
 		// Load the PDF file into text
 		this.file = file;
-	}
-	
-	public void loadPDFFile(File file) throws InvalidPasswordException, IOException {
-		// Do the basic text file loading
-		loadTextFile(file);
 		
 		// If the file is a PDF the do the PDF stuff
-		String[] filenameParts = file.getName().split(".");
-		String extension = filenameParts[filenameParts.length - 1];
-		if (extension.equalsIgnoreCase("pdf")) {
+		boolean isPDF = false;
+		FileReader reader = new FileReader(file);
+		Scanner scanner = new Scanner(reader);
+		while (scanner.hasNextLine()) {
+			if (scanner.nextLine().contains("%PDF-")) {
+				isPDF = true;
+				break;
+			}
+		}
+		scanner.close();
+		reader.close();
+		
+		if (isPDF) {
 			PDDocument pdf = PDDocument.load(file);
 			textFromPDF = new PDFTextStripper().getText(pdf);
-			pdf.close();			
-		}
+			pdf.close();
+		}		
 	}
-
+	
 	public abstract void parse() throws ParseException, IOException;
 
 	public ArrayList<Obstacle> getObstacles() {

@@ -54,7 +54,7 @@ public class ESObstacle extends Obstacle {
 		LocalDate fromDate = LocalDate.parse(wef, DateTimeFormatter.ofPattern("d M yyyy"));
 		LocalDate toDate = fromDate.plusYears(2);
 		this.datetimeValidWef = fromDate.toString() + "T00:00:00Z";
-		this.datetimeValidTil = toDate.toString() + "T23:59:59Z";
+		this.datetimeValidTil = toDate.toString() + "T00:00:00Z";
 		
 		this.source = "ES|ENR|5.4|" + fromDate.toString() + "|CSV";
 		
