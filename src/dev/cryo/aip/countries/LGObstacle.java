@@ -21,26 +21,32 @@ public class LGObstacle extends Obstacle {
 			String wef
 			) throws NumberFormatException {
 		
-		this.codeId = obstacleId;
-		this.codeLgt = lighted.toLowerCase().contains("yes") ? "Y" : "N";
-		this.codeMarking = "";
-		this.txtDescrLgt = "";
-		this.txtDescrMarking = "";
-		this.coordinates = new WGS84Coordinates(lat, lon);
-		this.valGeoAccuracy = 0;
-		this.uomGeoAccuracy = "M";
-		this.valElev = Integer.valueOf(elev_m);
-		this.valElevAccuracy = 0;
-		this.valHgt = Integer.valueOf(height_m);
-		this.codeHgtAccuracy = "Y";
-		this.uomDistVer = "M";
-		this.valRadius = 0;
-		this.uomRadius = "M";
-		this.txtRmk = remarks;
-		this.codeGroupId = "";
-		this.txtGroupName = "";
-		this.codeLinkedToId = "";
-		this.codeLinkType = "";
+		codeId = obstacleId;
+		codeLgt = lighted.toLowerCase().contains("yes") ? "Y" : "N";
+		codeMarking = "";
+		txtDescrLgt = "";
+		txtDescrMarking = "";
+		coordinates = new WGS84Coordinates(lat, lon);
+		valGeoAccuracy = 0;
+		uomGeoAccuracy = "M";
+		valElev = Integer.valueOf(elev_m);
+		valElevAccuracy = 0;
+		valHgt = Integer.valueOf(height_m);
+		codeHgtAccuracy = "Y";
+		uomDistVer = "M";
+		valRadius = 0;
+		uomRadius = "M";
+		txtRmk = remarks;
+		codeGroupId = "";
+		txtGroupName = "";
+		codeLinkedToId = "";
+		codeLinkType = "";
+		
+		// Fix the elevation/height switcheroo (water bridges and such)
+		if (valElev > 0 && valHgt == 0) {
+			valHgt = valElev;
+			valElev = 0;
+		}
 		
 		// Convert time (horrible APIs require horrible solutions)
 		String[] months = { "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC" };
@@ -52,37 +58,37 @@ public class LGObstacle extends Obstacle {
 		}
 		LocalDate fromDate = LocalDate.parse(wef, DateTimeFormatter.ofPattern("d M yyyy"));
 		LocalDate toDate = fromDate.plusYears(2);
-		this.datetimeValidWef = fromDate.toString() + "T00:00:00Z";
-		this.datetimeValidTil = toDate.toString() + "T00:00:00Z";
+		datetimeValidWef = fromDate.toString() + "T00:00:00Z";
+		datetimeValidTil = toDate.toString() + "T00:00:00Z";
 		
 		// The date does not match AIRAC date since it is not provided in the CSN file
-		this.source = "LG|ENR|5.4|" + fromDate.toString() + "|PDF";
+		source = "LG|ENR|5.4|" + fromDate.toString() + "|PDF";
 		
 		// Search for the type of obstacle
 		type = type.toLowerCase();
 		if (type.matches(".*antenna.*")) { // OK
-			this.codeType = "ANTENNA";
+			codeType = "ANTENNA";
 		} else if (type.matches(".*bridge.*")) { // OK
-			this.codeType = "BRIDGE";
+			codeType = "BRIDGE";
 		} else if (type.matches(".*house.*")) { // OK
-			this.codeType = "BUILDING";
+			codeType = "BUILDING";
 		} else if (type.matches("(.*chimney.*|.*smoke.*)")) { // OK
-			this.codeType = "CHIMNEY";
+			codeType = "CHIMNEY";
 		} else if (type.matches(".*crane.*")) { // No samples
-			this.codeType = "CRANE";
+			codeType = "CRANE";
 		} else if (type.matches(".*mast.*")) { // OK 
-			this.codeType = "MAST";
+			codeType = "MAST";
 		} else if (type.matches(".*tower.*")) { // OK
-			this.codeType = "TOWER";
+			codeType = "TOWER";
 		} else if (type.matches(".*tree.*")) { // No samples
-			this.codeType = "TREE";
+			codeType = "TREE";
 		} else if (type.matches(".*wind.*")) { // OK 
-			this.codeType = "WINDTURBINE";
+			codeType = "WINDTURBINE";
 		} else {
-			this.codeType = "OTHER";
+			codeType = "OTHER";
 		}
 		
-		this.txtName = this.codeType;
+		txtName = codeType;
 		
 	}
 
