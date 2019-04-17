@@ -22,5 +22,5 @@ It should work in any operating system as long as you have the latest Java JRE. 
 
 ### Output files
 
-The output file follows the OFM [Obstacle CSV](https://github.com/openflightmaps/ofmx/wiki/Obstacle-CSV) specification.
+The output file follows the OFMX [Obstacle CSV](https://github.com/openflightmaps/ofmx/wiki/Obstacle-CSV) specification.
 

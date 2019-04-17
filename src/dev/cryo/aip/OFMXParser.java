@@ -97,7 +97,10 @@ public class OFMXParser {
 		} catch (UnsupportedEncodingException e) {
 			System.out.println("ERR: Unsupported encoding: " + e.getLocalizedMessage());
 			System.exit(1);
-		}
+		} catch (IOException e) {
+			System.out.println("ERR: " + e.getLocalizedMessage());
+			System.exit(1);
+		} 
 		
 		System.out.println("MSG: Saved OFM obstacle file to: " + outputFilename);
 	}

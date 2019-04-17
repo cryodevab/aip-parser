@@ -1,5 +1,10 @@
 package dev.cryo.aip.model;
 
+import java.io.IOException;
+import java.lang.reflect.Field;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 public abstract class Obstacle {
 
 	protected int codeId;
@@ -29,53 +34,63 @@ public abstract class Obstacle {
 	protected String source;
 	
 	// Get a line just a specified in the OFMX Obstacle CSV file 
-	public String getOFMline() {
+	public String getOFMline() throws IOException {
 		
-		// Some cleanup to keep to comply with: https://github.com/openflightmaps/ofmx/wiki/OFMX-CSV
-		this.txtName = this.txtName.replaceAll("\"", "\"\""); // Replace all <"> with <"">
-		this.txtName = this.txtName.replaceAll(" +", " "); // Replace all multiple spaces with single spaces
-		this.txtName = this.txtName.replaceAll("\\s/\\s", "/"); // Replace < / > with </>
-		this.txtName = this.txtName.replaceAll("\\s/", "/"); // Replace < /> with </>
-		this.txtName = this.txtName.replaceAll("/\\s", "/"); // Replace </ > with </>
-
-		this.txtDescrLgt = this.txtDescrLgt.replaceAll("\"", "\"\""); // Replace all <"> with <"">
-		this.txtDescrLgt = this.txtDescrLgt.replaceAll(" +", " "); // Replace all multiple spaces with single spaces
-		
-		this.txtRmk = this.txtRmk.replaceAll("\"", "\"\""); // Replace all <"> with <"">
-		this.txtRmk = this.txtRmk.replaceAll(" +", " "); // Replace all multiple spaces with single spaces
+		// Escape all CSV strings
+		// https://github.com/openflightmaps/ofmx/wiki/OFMX-CSV
+        Field[] fields = Obstacle.class.getDeclaredFields();
+        for (Field field : fields) {
+        	if (field.getType().getSimpleName().equals("String")) {
+        		try {
+        			// Replace all <"> with <"">
+        			field.set(this, ((String) field.get(this)).replaceAll("\"", "\"\""));
+        			
+        			// Replace multiple spaces with single ones
+        			field.set(this, ((String) field.get(this)).replaceAll("\\s+", " "));
+        			
+        			// Replace < / > with </>
+        			field.set(this, ((String) field.get(this)).replaceAll(" / ", "/"));
+        			
+        			// Replace < /> with </>
+        			field.set(this, ((String) field.get(this)).replaceAll(" /", "/"));
+        			
+        			// Replace </ > with </>
+        			field.set(this, ((String) field.get(this)).replaceAll("/ ", "/"));
+        			
+        		} catch (IllegalArgumentException | IllegalAccessException e) {
+					throw new IOException(e.getLocalizedMessage());
+				}
+        	}
+        }
 		
 		return 
 				"\"" +
-				this.codeId + "\",\"" + 
-				this.codeType + "\",\"" + 
-				this.txtName + "\",\"" + 
-				this.codeLgt + "\",\"" + 
-				this.codeMarking + "\",\"" + 
-				this.txtDescrLgt +  "\",\"" +
-				this.txtDescrMarking + "\",\"" + 
-				this.coordinates.getLat() + "\",\"" + 
-				this.coordinates.getLon() + "\",\"" + 
-				this.valGeoAccuracy + "\",\"" + 
-				this.uomGeoAccuracy + "\",\"" + 
-				this.valElev + "\",\"" + 
-				this.valElevAccuracy + "\",\"" + 
-				this.valHgt + "\",\"" + 
-				this.codeHgtAccuracy + "\",\"" + 
-				this.uomDistVer + "\",\"" + 
-				this.valRadius + "\",\"" + 
-				this.uomRadius + "\",\"" + 
-				this.codeGroupId + "\",\"" + 
-				this.txtGroupName + "\",\"" + 
-				this.codeLinkedToId + "\",\"" + 
-				this.codeLinkType + "\",\"" + 
-				this.datetimeValidWef + "\",\"" + 
-				this.datetimeValidTil + "\",\"" + 
-				this.txtRmk + "\",\"" + 
-				this.source + "\"";
-	}
-
-	public String toString() {
-		return getOFMline();
+				codeId + "\",\"" + 
+				codeType + "\",\"" + 
+				txtName + "\",\"" + 
+				codeLgt + "\",\"" + 
+				codeMarking + "\",\"" + 
+				txtDescrLgt +  "\",\"" +
+				txtDescrMarking + "\",\"" + 
+				coordinates.getLat() + "\",\"" + 
+				coordinates.getLon() + "\",\"" + 
+				valGeoAccuracy + "\",\"" + 
+				uomGeoAccuracy + "\",\"" + 
+				valElev + "\",\"" + 
+				valElevAccuracy + "\",\"" + 
+				valHgt + "\",\"" + 
+				codeHgtAccuracy + "\",\"" + 
+				uomDistVer + "\",\"" + 
+				valRadius + "\",\"" + 
+				uomRadius + "\",\"" + 
+				codeGroupId + "\",\"" + 
+				txtGroupName + "\",\"" + 
+				codeLinkedToId + "\",\"" + 
+				codeLinkType + "\",\"" + 
+				datetimeValidWef + "\",\"" + 
+				datetimeValidTil + "\",\"" + 
+				txtRmk + "\",\"" + 
+				source + "\"";
 	}
 	
 	// Seriously Java?
@@ -84,5 +99,17 @@ public abstract class Obstacle {
 			return "";
 		
 		return input.substring(0,1).toUpperCase() + input.substring(1, input.length()).toLowerCase();
+	}
+	
+	// Convert time (horrible APIs require horrible solutions)
+	protected LocalDate parseWef(String wef) {
+		String[] months = {"JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"};
+		for (int i = 0; i <= 11; i++) {
+			if (wef.contains(months[i])) {
+				wef = wef.replaceFirst(months[i], i + 1 + "");
+				break;
+			}
+		}
+		return LocalDate.parse(wef, DateTimeFormatter.ofPattern("d M yyyy"));
 	}
 }

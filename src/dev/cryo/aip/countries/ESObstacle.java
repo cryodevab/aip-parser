@@ -1,7 +1,6 @@
 package dev.cryo.aip.countries;
 
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 import dev.cryo.aip.model.Obstacle;
 import dev.cryo.aip.model.WGS84Coordinates;
@@ -21,65 +20,58 @@ public class ESObstacle extends Obstacle {
 			String wef
 			) throws NumberFormatException {
 		
-		this.codeId = Integer.valueOf(no);
-		this.txtName = name_of_obstacle.trim().toUpperCase();
-		this.codeLgt = light_character.trim().isEmpty() ? "N" : "Y";
-		this.codeMarking = "";
-		this.txtDescrLgt = light_character.trim();
-		this.txtDescrMarking = "";
-		this.coordinates = new WGS84Coordinates(latitude.trim(), longitude.trim());
-		this.valGeoAccuracy = 0;
-		this.uomGeoAccuracy = "M";
-		this.valElev = Integer.valueOf(elevation_ft);
-		this.valElevAccuracy = 0;
-		this.valHgt = Integer.valueOf(height_ft);
-		this.codeHgtAccuracy = quality_not_certified.trim().isEmpty() ? "Y" : "N";
-		this.uomDistVer = "FT";
-		this.valRadius = type_of_obstacle.toLowerCase().contains("radius") ? Integer.valueOf(type_of_obstacle.replaceAll("[\\D.]", "")) : 0;
-		this.uomRadius = "M";
-		this.codeGroupId = "";
-		this.txtGroupName = "";
-		this.codeLinkedToId = "";
-		this.codeLinkType = "";
-		this.txtRmk = type_of_obstacle;
+		codeId = Integer.valueOf(no);
+		txtName = name_of_obstacle.trim().toUpperCase();
+		codeLgt = light_character.trim().isEmpty() ? "N" : "Y";
+		codeMarking = "";
+		txtDescrLgt = light_character.trim();
+		txtDescrMarking = "";
+		coordinates = new WGS84Coordinates(latitude.trim(), longitude.trim());
+		valGeoAccuracy = 0;
+		uomGeoAccuracy = "M";
+		valElev = Integer.valueOf(elevation_ft);
+		valElevAccuracy = 0;
+		valHgt = Integer.valueOf(height_ft);
+		codeHgtAccuracy = quality_not_certified.trim().isEmpty() ? "Y" : "N";
+		uomDistVer = "FT";
+		valRadius = type_of_obstacle.toLowerCase().contains("radius") ? Integer.valueOf(type_of_obstacle.replaceAll("[\\D.]", "")) : 0;
+		uomRadius = "M";
+		codeGroupId = "";
+		txtGroupName = "";
+		codeLinkedToId = "";
+		codeLinkType = "";
+		txtRmk = type_of_obstacle;
 		
-		// Convert time (horrible APIs require horrible solutions)
-		String[] months = {"JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"};
-		for (int i = 0; i <= 11; i++) {
-			if (wef.contains(months[i])) {
-				wef = wef.replaceFirst(months[i], i + 1 + "");
-				break;
-			}
-		}
-		LocalDate fromDate = LocalDate.parse(wef, DateTimeFormatter.ofPattern("d M yyyy"));
+		// Convert time
+		LocalDate fromDate = parseWef(wef);
 		LocalDate toDate = fromDate.plusYears(2);
-		this.datetimeValidWef = fromDate.toString() + "T00:00:00Z";
-		this.datetimeValidTil = toDate.toString() + "T00:00:00Z";
+		datetimeValidWef = fromDate.toString() + "T00:00:00Z";
+		datetimeValidTil = toDate.toString() + "T00:00:00Z";
 		
-		this.source = "ES|ENR|5.4|" + fromDate.toString() + "|CSV";
+		source = "ES|ENR|5.4|" + fromDate.toString() + "|CSV";
 		
 		// Search for the type of obstacle
 		type_of_obstacle = type_of_obstacle.trim().toLowerCase();
 		if (type_of_obstacle.contains("antenna")) {
-			this.codeType = "ANTENNA";
+			codeType = "ANTENNA";
 		} else if (type_of_obstacle.contains("bridge")) { 
-			this.codeType = "BRIDGE";
+			codeType = "BRIDGE";
 		} else if (type_of_obstacle.contains("building")) { 
-			this.codeType = "BUILDING";
+			codeType = "BUILDING";
 		} else if (type_of_obstacle.contains("chimney")) { 
-			this.codeType = "CHIMNEY";
+			codeType = "CHIMNEY";
 		} else if (type_of_obstacle.contains("crane")) { 
-			this.codeType = "CRANE";
+			codeType = "CRANE";
 		} else if (type_of_obstacle.contains("mast")) { 
-			this.codeType = "MAST";
+			codeType = "MAST";
 		} else if (type_of_obstacle.contains("tower")) { 
-			this.codeType = "TOWER";
+			codeType = "TOWER";
 		} else if (type_of_obstacle.contains("tree")) { 
-			this.codeType = "TREE";
+			codeType = "TREE";
 		} else if (type_of_obstacle.contains("turbine")) { 
-			this.codeType = "WINDTURBINE";
+			codeType = "WINDTURBINE";
 		} else {
-			this.codeType = "OTHER";
+			codeType = "OTHER";
 		}
 		
 	}

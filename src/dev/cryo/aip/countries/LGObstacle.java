@@ -1,7 +1,6 @@
 package dev.cryo.aip.countries;
 
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 import dev.cryo.aip.model.Obstacle;
 import dev.cryo.aip.model.WGS84Coordinates;
@@ -48,15 +47,8 @@ public class LGObstacle extends Obstacle {
 			valElev = 0;
 		}
 		
-		// Convert time (horrible APIs require horrible solutions)
-		String[] months = { "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC" };
-		for (int i = 0; i <= 11; i++) {
-			if (wef.contains(months[i])) {
-				wef = wef.replaceFirst(months[i], i + 1 + "");
-				break;
-			}
-		}
-		LocalDate fromDate = LocalDate.parse(wef, DateTimeFormatter.ofPattern("d M yyyy"));
+		// Convert time
+		LocalDate fromDate = parseWef(wef);
 		LocalDate toDate = fromDate.plusYears(2);
 		datetimeValidWef = fromDate.toString() + "T00:00:00Z";
 		datetimeValidTil = toDate.toString() + "T00:00:00Z";
